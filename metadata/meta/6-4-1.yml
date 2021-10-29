@@ -1,0 +1,16 @@
+SDG_GOAL: '<p>Goal 6: Ensure availability and sustainable management of water and
+  sanitation for all</p>'
+SDG_TARGET: '<p>Target 6.4: By 2030, substantially increase water-use efficiency across
+  all sectors and ensure sustainable withdrawals and supply of freshwater to address
+  water scarcity and substantially reduce the number of people suffering from water
+  scarcity</p>'
+SDG_INDICATOR: '<p>Indicator 6.4.1: Change in water-use efficiency over time</p>'
+STAT_CONC_DEF: <p>The change in water use efficiency over time (CWUE). The change
+  in the ratio of the value added to the volume of water use, over time.</p>
+SDG_GOAL__GLOBAL: '<p>Goal 6: Ensure availability and sustainable management of water
+  and sanitation for all</p>'
+SDG_TARGET__GLOBAL: '<p>Target 6.4: By 2030, substantially increase water-use efficiency
+  across all sectors and ensure sustainable withdrawals and supply of freshwater to
+  address water scarcity and substantially reduce the number of people suffering from
+  water scarcity</p>'
+SDG_INDICATOR__GLOBAL: '<p>Indicator 6.4.1: Change in water-use efficiency over time</p>'

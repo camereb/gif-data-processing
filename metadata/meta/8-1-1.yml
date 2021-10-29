@@ -1,0 +1,15 @@
+SDG_GOAL: |-
+  <p>Goal 8: Promote sustained, inclusive and sustainable economic growth, full and productive employment</p>
+  <p>and decent work for all</p>
+SDG_TARGET: |-
+  <p>Target 8.1: Sustain per capita economic growth in accordance with national circumstances and, in</p>
+  <p>particular, at least 7 per cent gross domestic product growth per annum in the least developed countries </p>
+SDG_INDICATOR: '<p>Indicator 8.1.1: Annual growth rate of real GDP per capita</p>'
+STAT_CONC_DEF: []
+SDG_GOAL__GLOBAL: |-
+  <p>Goal 8: Promote sustained, inclusive and sustainable economic growth, full and productive employment</p>
+  <p>and decent work for all</p>
+SDG_TARGET__GLOBAL: |-
+  <p>Target 8.1: Sustain per capita economic growth in accordance with national circumstances and, in</p>
+  <p>particular, at least 7 per cent gross domestic product growth per annum in the least developed countries </p>
+SDG_INDICATOR__GLOBAL: '<p>Indicator 8.1.1: Annual growth rate of real GDP per capita</p>'

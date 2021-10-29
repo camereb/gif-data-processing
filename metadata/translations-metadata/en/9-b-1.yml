@@ -1,0 +1,386 @@
+SDG_GOAL: >-
+  <p>Goal 9: Build resilient infrastructure, promote inclusive and sustainable
+  industrialization and foster innovation</p>
+SDG_TARGET: >-
+  <p>Target 9.b: Support domestic technology development, research and
+  innovation in developing countries, including by ensuring a conducive policy
+  environment for, inter alia, industrial diversification and value addition to
+  commodities</p>
+SDG_INDICATOR: >-
+  <p>Indicator 9.b.1: Proportion of medium and high-tech industry value added in
+  total value added</p>
+META_LAST_UPDATE: <p>February 2021</p>
+SDG_CUSTODIAN_AGENCIES: <p>United Nations Industrial Development Organization (UNIDO)</p>
+CONTACT_ORGANISATION: <p>United Nations Industrial Development Organization (UNIDO)</p>
+STAT_CONC_DEF: >-
+  <p>Definitions:</p>
+
+  <p>The proportion of medium-high and high-tech industry (MHT hereafter) value
+  added in total value added of manufacturing (MVA hereafter) is a ratio value
+  between the value added of MHT industry and MVA.</p>
+
+  <p>Concepts:</p>
+
+  <p>The value added of an industry (industry value added) is a survey concept
+  that refers to the given industry&#x2019;s net output derived from the
+  difference of gross output and intermediate consumption. Manufacturing
+  sector<em> </em>is defined according to the International Standard Industrial
+  Classification of all Economic Activities (ISIC) Revision 3 (1990) or Revision
+  4 (2008). It refers to industries belonging to sector D in revision 3 or
+  sector C in Revision 4.</p>
+
+  <p>Technology classification is based on research and development (R&amp;D)
+  expenditure relative to value added otherwise referred as R&amp;D intensity.
+  Data for R&amp;D intensity are presented in a report (Galindo-Rueda and
+  Verger, 2016) published by the OECD in 2016, which also proposes a taxonomy
+  for industry groups with different ranges of R&amp;D expenditure relative to
+  their gross value added. MHT industries have traditionally been defined
+  exclusively to manufacturing industries. However, there have been recent
+  efforts (Galindo-Rueda and Verger, 2016) to extend the definition to
+  non-manufacturing industries as well. Nevertheless, medium-high and high
+  technology sectors also in new paper are primarily represented by
+  manufacturing industries.</p>
+
+  <p>The following table includes the classification of MHT industries by ISIC
+  Rev. 3 and ISIC Rev. 4.</p>
+
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          <p>ISIC Rev.4</p>
+        </td>
+        <td>
+          <p>Description</p>
+        </td>
+        <td>
+          <p>ISIC Rev.3 </p>
+        </td>
+        <td>
+          <p>Description</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>20</p>
+        </td>
+        <td>
+          <p>Manufacture of chemicals and chemical products</p>
+        </td>
+        <td>
+          <p>24</p>
+        </td>
+        <td>
+          <p>Manufacture of chemicals and chemical products</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>21</p>
+        </td>
+        <td>
+          <p>Manufacture of basic pharmaceutical products and pharmaceutical preparations</p>
+        </td>
+        <td>
+          <p>29</p>
+        </td>
+        <td>
+          <p>Manufacture of machinery and equipment n.e.c.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>252</p>
+        </td>
+        <td>
+          <p>Manufacture of weapons and ammunition</p>
+        </td>
+        <td>
+          <p>30</p>
+        </td>
+        <td>
+          <p>Manufacture of office, accounting and computing machinery</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>26</p>
+        </td>
+        <td>
+          <p>Manufacture of computer, electronic and optical products</p>
+        </td>
+        <td>
+          <p>31</p>
+        </td>
+        <td>
+          <p>Manufacture of electrical machinery and apparatus n.e.c.</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>27</p>
+        </td>
+        <td>
+          <p>Manufacture of electrical equipment</p>
+        </td>
+        <td>
+          <p>32</p>
+        </td>
+        <td>
+          <p>Manufacture of radio, television and communication equipment and apparatus</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>28</p>
+        </td>
+        <td>
+          <p>Manufacture of machinery and equipment n.e.c.</p>
+        </td>
+        <td>
+          <p>33</p>
+        </td>
+        <td>
+          <p>Manufacture of medical, precision and optical instruments, watches and clocks</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>29</p>
+        </td>
+        <td>
+          <p>Manufacture of motor vehicles, trailers and semi-trailers</p>
+        </td>
+        <td>
+          <p>34</p>
+        </td>
+        <td>
+          <p>Manufacture of motor vehicles, trailers and semi-trailers</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>30*</p>
+        </td>
+        <td>
+          <p>Manufacture of other transport equipment </p>
+        </td>
+        <td>
+          <p>35**</p>
+        </td>
+        <td>
+          <p>Manufacture of other transport equipment</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>325</p>
+        </td>
+        <td>
+          <p>Manufacture of medical and dental instruments and supplies</p>
+        </td>
+        <td></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p><strong>* </strong>Excluding 301 (Building of ships and boats)</p>
+
+  <p><strong>** </strong>Excluding 351 (Building and repairing of ships and
+  boats)</p>
+
+  <p>MVA is the value added of manufacturing industry, which is Section C of
+  ISIC Rev.4, and Section D of ISIC Rev.3. </p>
+UNIT_MEASURE: <p>Percentages</p>
+CLASS_SYSTEM: >-
+  <p><a
+  href="https://unstats.un.org/unsd/publication/seriesm/seriesm_4rev4e.pdf">International
+  Standard Industrial Classification of all Economic Activities (ISIC) Revision
+  4</a></p>
+
+  <p><a
+  href="https://unstats.un.org/unsd/publication/seriesm/seriesm_4rev3_1e.pdf">International
+  Standard Industrial Classification of all Economic Activities (ISIC) Revision
+  3</a></p>
+SOURCE_TYPE: >-
+  <p>Data can be found in UNIDO INDSTAT4 Database by ISIC Revision 3 and ISIC
+  Revision 4 respectively.</p>
+COLL_METHOD: >-
+  <p>Data are collected using General Industrial Statistics Questionnaire which
+  is filled by NSOs and submitted to UNIDO annually. Data for OECD countries are
+  obtained directly from OECD. Country data are also collected from official
+  publications and official web-sites.</p>
+FREQ_COLL: <p>Data are collected annually from NSOs and OECD</p>
+REL_CAL_POLICY: <p>UNIDO INDSTAT database is updated between March and April every year.</p>
+DATA_SOURCE: >-
+  <p>National statistical offices (NSOs) in non-OECD countries, and OECD
+  countries by OECD</p>
+COMPILING_ORG: <p>United Nations Industrial Development Organization (UNIDO)</p>
+INST_MANDATE: >-
+  <p>UNIDO, as the specialized UN agency on industrial development, has the
+  international mandate for collecting, producing and disseminating
+  internationally comparable industrial statistics. UNIDO&#x2019;s mandate
+  covers (i) the maintenance and updating of international industrial statistics
+  databases; (ii) methodological and analytical products based on statistical
+  research and experience of maintaining internationally comparable statistics;
+  (iii) contributions to the development and implementation of international
+  statistical standards and methodology; and (iv) technical cooperation services
+  to countries in the field of industrial statistics. With the repositioning of
+  UNIDO as the focal agency for inclusive and sustainable industrial development
+  (ISID), its statistical mandate was expanded to cover all dimensions of
+  industrial development, including its inclusiveness and environmental
+  sustainability.</p>
+RATIONALE: >-
+  <p>Industrial development generally entails a structural transition from
+  resource-based and low technology activities to MHT activities. A modern,
+  highly complex production structure offers better opportunities for skills
+  development and technological innovation. MHT activities are also the high
+  value addition industries of manufacturing with higher technological intensity
+  and labour productivity. Increasing the share of MHT sectors also reflects the
+  impact of innovation.</p>
+REC_USE_LIM: >-
+  <p>Value added by economic activity should be reported at least at 3-digit
+  ISIC for compiling MHT values.</p>
+DATA_COMP: >-
+  <p>The indicator is calculated as the share of the sum of the value added from
+  MHT economic activities to MVA.</p>
+
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mfrac>
+        <mrow>
+          <mi mathvariant="normal">S</mi>
+          <mi mathvariant="normal">u</mi>
+          <mi mathvariant="normal">m</mi>
+          <mi mathvariant="normal">&amp;nbsp;</mi>
+          <mi mathvariant="normal">o</mi>
+          <mi mathvariant="normal">f</mi>
+          <mi mathvariant="normal">&amp;nbsp;</mi>
+          <mi mathvariant="normal">v</mi>
+          <mi mathvariant="normal">a</mi>
+          <mi mathvariant="normal">l</mi>
+          <mi mathvariant="normal">u</mi>
+          <mi mathvariant="normal">e</mi>
+          <mi mathvariant="normal">&amp;nbsp;</mi>
+          <mi mathvariant="normal">a</mi>
+          <mi mathvariant="normal">d</mi>
+          <mi mathvariant="normal">d</mi>
+          <mi mathvariant="normal">e</mi>
+          <mi mathvariant="normal">d</mi>
+          <mi mathvariant="normal">&amp;nbsp;</mi>
+          <mi mathvariant="normal">i</mi>
+          <mi mathvariant="normal">n</mi>
+          <mi mathvariant="normal">&amp;nbsp;</mi>
+          <mi mathvariant="normal">M</mi>
+          <mi mathvariant="normal">H</mi>
+          <mi mathvariant="normal">T</mi>
+          <mi mathvariant="normal">&amp;nbsp;</mi>
+          <mi mathvariant="normal">e</mi>
+          <mi mathvariant="normal">c</mi>
+          <mi mathvariant="normal">o</mi>
+          <mi mathvariant="normal">n</mi>
+          <mi mathvariant="normal">o</mi>
+          <mi mathvariant="normal">m</mi>
+          <mi mathvariant="normal">i</mi>
+          <mi mathvariant="normal">c</mi>
+          <mi mathvariant="normal">&amp;nbsp;</mi>
+          <mi mathvariant="normal">a</mi>
+          <mi mathvariant="normal">c</mi>
+          <mi mathvariant="normal">t</mi>
+          <mi mathvariant="normal">i</mi>
+          <mi mathvariant="normal">v</mi>
+          <mi mathvariant="normal">i</mi>
+          <mi mathvariant="normal">t</mi>
+          <mi mathvariant="normal">i</mi>
+          <mi mathvariant="normal">e</mi>
+          <mi mathvariant="normal">s</mi>
+        </mrow>
+        <mrow>
+          <mi mathvariant="normal">M</mi>
+          <mi mathvariant="normal">V</mi>
+          <mi mathvariant="normal">A</mi>
+        </mrow>
+      </mfrac>
+      <mi mathvariant="normal">*</mi>
+      <mn>100</mn>
+    </math></p>
+DATA_VALIDATION: >-
+  <p>UNIDO engages with countries in regular consultations during the data
+  collection process to ensure the data quality and international comparability.
+  </p>
+ADJUSTMENT: >-
+  <p>Data are collected through the UNIDO General Industrial Statistics
+  Questionnaire to receive information on differences in concept, scope,
+  coverage and classification used. The final data are adjusted to follow ISIC
+  and facilitate international comparability.</p>
+IMPUTATION: >-
+  <p>&#x2022; At country level:</p>
+
+  <p>Missing values are imputed based on the methodology from Competitive
+  Industrial Performance Report (UNIDO, 2016).</p>
+
+  <p>&#x2022; At regional and global levels:</p>
+
+  <p>Imputation applied at country level.</p>
+REG_AGG: >-
+  <p>Regional and global aggregates are calculated as a weighted average of
+  countries&#x2019; MHT shares in a group. Weights are taken based on the MVA
+  share in a group (UNIDO MVA Database).</p>
+DOC_METHOD: >-
+  <p>International Recommendations for Industrial Statistics (IRIS) 2008</p>
+
+  <p><a
+  href="https://unstats.un.org/unsd/publication/seriesM/seriesm_90e.pdf">https://unstats.un.org/unsd/publication/seriesM/seriesm_90e.pdf</a></p>
+
+  <p>International Standard Industrial Classification of All Economic Activities
+  (ISIC) </p>
+
+  <p><a
+  href="https://unstats.un.org/unsd/classifications/Econ/isic">https://unstats.un.org/unsd/classifications/Econ/isic</a></p>
+QUALITY_ASSURE: >-
+  <p>The UNIDO quality assurance framework is followed to check data quality and
+  consistency before the data dissemination.</p>
+
+  <p>UNIDO (2009), UNIDO Data Quality: A quality assurance framework for UNIDO
+  statistical activities <a
+  href="https://open.unido.org/api/documents/4814740/download/UNIDO-Publication-2009-4814740">https://open.unido.org/api/documents/4814740/download/UNIDO-Publication-2009-4814740</a>
+  </p>
+COVERAGE: >-
+  <p>Data availability:</p>
+
+  <p>More than 150 economies</p>
+
+  <p>Time series:</p>
+
+  <p>Data for this indicator are available from 2000 in the UN Global SDG
+  Database, but longer time series are available in the CIP database.</p>
+
+  <p>Disaggregation:</p>
+
+  <p>No disaggregation available.</p>
+COMPARABILITY: >-
+  <p>Sources of discrepancies:</p>
+
+  <p>Conversion to USD or difference in ISIC combinations may cause discrepancy
+  between national and international figures.</p>
+OTHER_DOC: >-
+  <h2>URL:</h2>
+
+  <p><a href="http://www.unido.org/statistics">www.unido.org/statistics</a></p>
+
+  <p><a href="https://stat.unido.org/">https://stat.unido.org/</a></p>
+
+  <h2>References:</h2>
+
+  <p>UNIDO Publication - The Industrial Competitiveness of Nations 2013</p>
+
+  <p>Competitive Industrial Performance (CIP) report 2018</p>
+
+  <p>International Standard Industrial Classification of All Economic Activities
+  2008</p>
+
+  <p>Galindo-Rueda, F. and F. Verger (2016). OECD Taxonomy of Economic
+  Activities Based on R&amp;D Intensity, OECD Science, Technology and Industry
+  Working Papers, 2016/04, OECD Publishing, Paris. Available at:</p>
+
+  <p>http://dx.doi.org/10.1787/5jlv73sqqp8r-en</p>

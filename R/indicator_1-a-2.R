@@ -25,7 +25,7 @@ gov_spending_final <-
     value = round((value/sum(value))*100, 3)
   )
 
-# Calculuate total line for total % on essential services
+# Calculuate total line for total % on essential services federally
 total_line <- 
   gov_spending_tidy %>%
     filter(geo == "Canada") %>%
@@ -39,10 +39,25 @@ total_line <-
     mutate(geo = "", gov_functions = "") %>%
     relocate(geo, .after = year)
 
+# Calculuate total line for total % on essential services provincially
+total_line_prov <-
+  gov_spending_tidy %>%
+    mutate(gov_functions = ifelse(gov_functions %in% c("Education", "Health", "Social protection"), "Essential", gov_functions)) %>%
+    group_by(year, geo, gov_functions) %>%
+    summarise(value = sum(value)) %>%
+    mutate(
+      value = round((value/sum(value))*100, 3)
+    ) %>%
+    filter(gov_functions=="Essential") %>%
+    mutate(gov_functions = "") %>%
+    relocate(geo, .after = year)
+  
+  
 # Bind data together and rename columns for final data
 data_final <-
   bind_rows(
     total_line,
+    total_line_prov,
     gov_spending_final
   ) %>%
   rename(

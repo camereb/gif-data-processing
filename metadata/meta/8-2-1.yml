@@ -1,0 +1,16 @@
+SDG_GOAL: '<p>Goal: Promote sustained, inclusive and sustainable economic growth,
+  full and productive employment and decent work for all </p>'
+SDG_TARGET: '<p>Target: Achieve higher levels of economic productivity through diversification,
+  technological upgrading and innovation, including through a focus on high-value
+  added and labour-intensive sectors </p>'
+SDG_INDICATOR: '<p>Indicator: 8.2.1: Annual growth rate of real GDP per employed person
+  </p>'
+STAT_CONC_DEF: <p>The annual growth rate of real GDP per employed person conveys the
+  annual percentage change in real Gross Domestic Product per employed person. </p>
+SDG_GOAL__GLOBAL: '<p>Goal: Promote sustained, inclusive and sustainable economic
+  growth, full and productive employment and decent work for all </p>'
+SDG_TARGET__GLOBAL: '<p>Target: Achieve higher levels of economic productivity through
+  diversification, technological upgrading and innovation, including through a focus
+  on high-value added and labour-intensive sectors </p>'
+SDG_INDICATOR__GLOBAL: '<p>Indicator: 8.2.1: Annual growth rate of real GDP per employed
+  person </p>'
