@@ -1,0 +1,52 @@
+---
+# Indicator information
+sdg_goal: 7
+target_id: 7.3
+indicator_number: 7.3.1
+indicator_sort_order: 7.3.1
+
+national_indicator_available: "Energy intensity measured in terms of primary energy and GDP"
+indicator_name: "Energy intensity measured in terms of primary energy and GDP"
+target_name: "By 2030, double the global rate of improvement in energy efficiency"
+
+
+published: 
+reporting_status: 
+
+national_geographical_coverage: 
+computation_units: 
+data_keywords: 
+
+# Indicator definition and additional information
+national_indicator_description: 
+computation_calculations: 
+comments_limitations:
+
+# Graph
+graph_title: 
+graph_type: 
+
+data_start_values:
+  - field: 
+    value: 
+  - field: 
+    value: 
+
+data_non_statistical: false
+data_show_map: false
+
+# Source
+source_active_1: true
+source_url_text_1: "Statistics Canada. Table 38-10-0096-01  Physical flow account for energy use"
+source_url_1: "https://doi.org/10.25318/3810009601-eng"
+source_organisation_1: "Statistics Canada"
+source_periodicity_1: "Annual"
+source_geographical_coverage_1: "Canada"
+---
+# Source
+source_active_2: true
+source_url_text_2: "Statistics Canada. Table 36-10-0402-01  Gross domestic product (GDP) at basic prices, by industry, provinces and territories (x 1,000,000)"
+source_url_2: "https://doi.org/10.25318/3610040201-eng"
+source_organisation_2: "Statistics Canada"
+source_periodicity_2: "Annual"
+source_geographical_coverage_2: "Province or territory"

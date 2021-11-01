@@ -1,0 +1,45 @@
+---
+# Indicator information
+sdg_goal: 3
+target_id: 3.7
+indicator_number: 3.7.2
+indicator_sort_order: 3.7.2
+
+national_indicator_available: " Adolescent birth rate (aged 10-14 years: aged 15-19 years) per 1,000 women in that age group"
+indicator_name: " Adolescent birth rate (aged 10-14 years: aged 15-19 years) per 1,000 women in that age group"
+target_name: "By 2030, ensure universal access to sexual and reproductive health-care services, including for family planning, information and education, and the integration of reproductive health into national strategies and programmes"
+
+
+published: 
+reporting_status: 
+
+national_geographical_coverage: 
+computation_units: 
+data_keywords: 
+
+# Indicator definition and additional information
+national_indicator_description: 
+computation_calculations: 
+comments_limitations:
+
+# Graph
+graph_title: 
+graph_type: 
+
+data_start_values:
+  - field: 
+    value: 
+  - field: 
+    value: 
+
+data_non_statistical: false
+data_show_map: false
+
+# Source
+source_active_1: true
+source_url_text_1: "Statistics Canada. Table 13-10-0418-01  Crude birth rate, age-specific fertility rates and total fertility rate (live births)"
+source_url_1: "https://doi.org/10.25318/1310041801-eng"
+source_organisation_1: "Statistics Canada"
+source_periodicity_1: "Annual"
+source_geographical_coverage_1: "Canada, Province or territory"
+---

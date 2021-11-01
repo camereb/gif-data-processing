@@ -1,0 +1,45 @@
+---
+# Indicator information
+sdg_goal: 9
+target_id: 9.b
+indicator_number: 9.b.1
+indicator_sort_order: 9.b.1
+
+national_indicator_available: "Proportion of medium and high-tech industry value added in total value added"
+indicator_name: "Proportion of medium and high-tech industry value added in total value added"
+target_name: "Support domestic technology development, research and innovation in developing countries, including by ensuring a conducive policy environment for, inter alia, industrial diversification and value addition to commodities"
+
+
+published: 
+reporting_status: 
+
+national_geographical_coverage: 
+computation_units: 
+data_keywords: 
+
+# Indicator definition and additional information
+national_indicator_description: 
+computation_calculations: 
+comments_limitations:
+
+# Graph
+graph_title: 
+graph_type: 
+
+data_start_values:
+  - field: 
+    value: 
+  - field: 
+    value: 
+
+data_non_statistical: false
+data_show_map: false
+
+# Source
+source_active_1: true
+source_url_text_1: "Statistics Canada. Table 36-10-0434-01  Gross domestic product (GDP) at basic prices, by industry, monthly (x 1,000,000)"
+source_url_1: "https://doi.org/10.25318/3610043401-eng"
+source_organisation_1: "Statistics Canada"
+source_periodicity_1: "Monthly"
+source_geographical_coverage_1: "Canada"
+---

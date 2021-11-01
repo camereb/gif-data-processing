@@ -1,0 +1,44 @@
+---
+# Indicator information
+sdg_goal: 17
+target_id: 17.8
+indicator_number: 17.8.1
+indicator_sort_order: 17.8.1
+
+national_indicator_available: "Proportion of individuals using the Internet"
+indicator_name: "Proportion of individuals using the Internet"
+target_name: "Fully operationalize the technology bank and science, technology and innovation capacity- building mechanism for least developed countries by 2017 and enhance the use of enabling technology, in particular information and communications technology"
+
+published: 
+reporting_status: 
+
+national_geographical_coverage: 
+computation_units: 
+data_keywords: 
+
+# Indicator definition and additional information
+national_indicator_description: 
+computation_calculations: 
+comments_limitations:
+
+# Graph
+graph_title: 
+graph_type: 
+
+data_start_values:
+  - field: 
+    value: 
+  - field: 
+    value: 
+
+data_non_statistical: false
+data_show_map: false
+
+# Source
+source_active_1: true
+source_url_text_1: "Statistics Canada. Table: 22-10-0135-01  Personal Internet use from any location by province and age group"
+source_url_1: "https://doi.org/10.25318/2210013501-eng"
+source_organisation_1: "Statistics Canada"
+source_periodicity_1: "Occasional"
+source_geographical_coverage_1: "Canada, Province or territory"
+---

@@ -1,0 +1,52 @@
+---
+# Indicator information
+sdg_goal: 9
+target_id: 9.2
+indicator_number: 9.2.1
+indicator_sort_order: 9.2.1
+
+national_indicator_available: "Manufacturing value added as a proportion of GDP and per capita"
+indicator_name: "Manufacturing value added as a proportion of GDP and per capita"
+target_name: "Promote inclusive and sustainable industrialization and, by 2030, significantly raise industry’s share of employment and gross domestic product, in line with national circumstances, and double its share in least developed countries"
+
+
+published: 
+reporting_status: 
+
+national_geographical_coverage: 
+computation_units: 
+data_keywords: 
+
+# Indicator definition and additional information
+national_indicator_description: 
+computation_calculations: 
+comments_limitations:
+
+# Graph
+graph_title: 
+graph_type: 
+
+data_start_values:
+  - field: 
+    value: 
+  - field: 
+    value: 
+
+data_non_statistical: false
+data_show_map: false
+
+# Source
+source_active_1: true
+source_url_text_1: "Statistics Canada. Table 36-10-0434-01  Gross domestic product (GDP) at basic prices, by industry, monthly (x 1,000,000)"
+source_url_1: "https://doi.org/10.25318/3610043401-eng"
+source_organisation_1: "Statistics Canada"
+source_periodicity_1: "Monthly"
+source_geographical_coverage_1: "Canada"
+---
+# Source
+source_active_2: true
+source_url_text_2: "Statistics Canada. Table 17-10-0009-01  Population estimates, quarterly"
+source_url_2: "https://doi.org/10.25318/1710000901-eng"
+source_organisation_2: "Statistics Canada"
+source_periodicity_2: "Quarterly"
+source_geographical_coverage_2: "Canada, Province or territory"

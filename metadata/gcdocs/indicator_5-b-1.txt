@@ -1,0 +1,45 @@
+---
+# Indicator information
+sdg_goal: 5
+target_id: 5.b
+indicator_number: 5.b.1
+indicator_sort_order: 5.b.1
+
+national_indicator_available: "Proportion of individuals who own a mobile telephone, by sex"
+indicator_name: "Proportion of individuals who own a mobile telephone, by sex"
+target_name: "Enhance the use of enabling technology, in particular information and communications technology, to promote the empowerment of women"
+
+
+published: 
+reporting_status: 
+
+national_geographical_coverage: 
+computation_units: 
+data_keywords: 
+
+# Indicator definition and additional information
+national_indicator_description: 
+computation_calculations: 
+comments_limitations:
+
+# Graph
+graph_title: 
+graph_type: 
+
+data_start_values:
+  - field: 
+    value: 
+  - field: 
+    value: 
+
+data_non_statistical: false
+data_show_map: false
+
+# Source
+source_active_1: true
+source_url_text_1: "Statistics Canada. Table 11-10-0228-01  Dwelling characteristics and household equipment at time of interview, Canada, regions and provinces"
+source_url_1: "https://doi.org/10.25318/1110022801-eng"
+source_organisation_1: "Statistics Canada"
+source_periodicity_1: "Annual"
+source_geographical_coverage_1: "Canada, Geographical region of Canada, Province or territory"
+---

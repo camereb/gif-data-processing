@@ -1,0 +1,45 @@
+---
+# Indicator information
+sdg_goal: 5
+target_id: 5.4
+indicator_number: 5.4.1
+indicator_sort_order: 5.4.1
+
+national_indicator_available: " Proportion of time spent on unpaid domestic and care work, by sex, age and location"
+indicator_name: " Proportion of time spent on unpaid domestic and care work, by sex, age and location"
+target_name: "Recognize and value unpaid care and domestic work through the provision of public services, infrastructure and social protection policies and the promotion of shared responsibility within the household and the family as nationally appropriate"
+
+
+published: 
+reporting_status: 
+
+national_geographical_coverage: 
+computation_units: 
+data_keywords: 
+
+# Indicator definition and additional information
+national_indicator_description: 
+computation_calculations: 
+comments_limitations:
+
+# Graph
+graph_title: 
+graph_type: 
+
+data_start_values:
+  - field: 
+    value: 
+  - field: 
+    value: 
+
+data_non_statistical: false
+data_show_map: false
+
+# Source
+source_active_1: true
+source_url_text_1: "Statistics Canada. Table 45-10-0014-01  Daily average time spent in hours on various activities by age group and sex, 15 years and over, Canada and provinces"
+source_url_1: "https://doi.org/10.25318/4510001401-eng"
+source_organisation_1: "Statistics Canada"
+source_periodicity_1: "Occasional"
+source_geographical_coverage_1: "Canada, Geographical region of Canada, Province or territory"
+---

@@ -1,0 +1,44 @@
+---
+# Indicator information
+sdg_goal: 10
+target_id: 10.4
+indicator_number: 10.4.1
+indicator_sort_order: 10.4.1
+
+national_indicator_available: "Labour share of GDP"
+indicator_name: "Labour share of GDP"
+target_name: "Adopt policies, especially fiscal, wage and social protection policies, and progressively achieve greater equality"
+
+published: 
+reporting_status: 
+
+national_geographical_coverage: 
+computation_units: 
+data_keywords: 
+
+# Indicator definition and additional information
+national_indicator_description: 
+computation_calculations: 
+comments_limitations:
+
+# Graph
+graph_title: 
+graph_type: 
+
+data_start_values:
+  - field: 
+    value: 
+  - field: 
+    value: 
+
+data_non_statistical: false
+data_show_map: false
+
+# Source
+source_active_1: true
+source_url_text_1: "Statistics Canada. Table 36-10-0103-01  Gross domestic product, income-based, quarterly (x 1,000,000)"
+source_url_1: "https://doi.org/10.25318/3610010301-eng"
+source_organisation_1: "Statistics Canada"
+source_periodicity_1: "Quarterly"
+source_geographical_coverage_1: "Canada"
+---

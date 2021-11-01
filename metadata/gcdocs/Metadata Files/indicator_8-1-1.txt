@@ -1,0 +1,52 @@
+---
+# Indicator information
+sdg_goal: 8
+target_id: 8.1
+indicator_number: 8.1.1
+indicator_sort_order: 8.1.1
+
+national_indicator_available: "Annual growth rate of real GDP per capita"
+indicator_name: "Annual growth rate of real GDP per capita"
+target_name: "Sustain per capita economic growth in accordance with national circumstances and, in particular, at least 7 per cent gross domestic product growth per annum in the least developed countries"
+
+
+published: 
+reporting_status: 
+
+national_geographical_coverage: 
+computation_units: 
+data_keywords: 
+
+# Indicator definition and additional information
+national_indicator_description: 
+computation_calculations: 
+comments_limitations:
+
+# Graph
+graph_title: 
+graph_type: 
+
+data_start_values:
+  - field: 
+    value: 
+  - field: 
+    value: 
+
+data_non_statistical: false
+data_show_map: false
+
+# Source
+source_active_1: true
+source_url_text_1: "Statistics Canada. Table 36-10-0402-01  Gross domestic product (GDP) at basic prices, by industry, provinces and territories (x 1,000,000)"
+source_url_1: "https://doi.org/10.25318/3610040201-eng"
+source_organisation_1: "Statistics Canada"
+source_periodicity_1: "Annual"
+source_geographical_coverage_1: "Province or territory"
+---
+# Source
+source_active_2: true
+source_url_text_2: "Statistics Canada. Table 17-10-0009-01  Population estimates, quarterly"
+source_url_2: "https://doi.org/10.25318/1710000901-eng"
+source_organisation_2: "Statistics Canada"
+source_periodicity_2: "Quarterly"
+source_geographical_coverage_2: "Canada, Province or territory"

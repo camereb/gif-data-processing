@@ -1,0 +1,45 @@
+---
+# Indicator information
+sdg_goal: 3
+target_id: 3.4
+indicator_number: 3.4.2
+indicator_sort_order: 3.4.2
+
+national_indicator_available: "Suicide mortality rate"
+indicator_name: "Suicide mortality rate"
+target_name: "By 2030, reduce by one third premature mortality from non-communicable diseases through prevention and treatment and promote mental health and well-being"
+
+
+published: 
+reporting_status: 
+
+national_geographical_coverage: 
+computation_units: 
+data_keywords: 
+
+# Indicator definition and additional information
+national_indicator_description: 
+computation_calculations: 
+comments_limitations:
+
+# Graph
+graph_title: 
+graph_type: 
+
+data_start_values:
+  - field: 
+    value: 
+  - field: 
+    value: 
+
+data_non_statistical: false
+data_show_map: false
+
+# Source
+source_active_1: true
+source_url_text_1: "Statistics Canada. Table 13-10-0800-01  Deaths and mortality rate (age standardization using 2011 population), by selected grouped causes"
+source_url_1: "https://doi.org/10.25318/1310080001-eng"
+source_organisation_1: "Statistics Canada"
+source_periodicity_1: "Annual"
+source_geographical_coverage_1: "Canada, Province or territory"
+---

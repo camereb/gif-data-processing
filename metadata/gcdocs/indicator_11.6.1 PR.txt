@@ -1,0 +1,44 @@
+---
+# Indicator information
+sdg_goal: 11
+target_id: 11.6
+indicator_number: 11.6.1 PR
+indicator_sort_order: 11.6.1 PR
+
+national_indicator_available: "Total amount of waste sent to disposal via the waste management industry"
+indicator_name: "Total amount of waste sent to disposal via the waste management industry"
+target_name: "By 2030, reduce the adverse per capita environmental impact of cities, including by paying special attention to air quality and municipal and other waste management"
+
+published: 
+reporting_status: 
+
+national_geographical_coverage: 
+computation_units: 
+data_keywords: 
+
+# Indicator definition and additional information
+national_indicator_description: 
+computation_calculations: 
+comments_limitations:
+
+# Graph
+graph_title: 
+graph_type: 
+
+data_start_values:
+  - field: 
+    value: 
+  - field: 
+    value: 
+
+data_non_statistical: false
+data_show_map: false
+
+# Source
+source_active_1: true
+source_url_text_1: "Statistics Canada. Table 38-10-0032-01  Disposal of waste, by source"
+source_url_1: "https://doi.org/10.25318/3810003201-eng"
+source_organisation_1: "Statistics Canada"
+source_periodicity_1: "Every 2 years"
+source_geographical_coverage_1: "Canada, Geographical region of Canada, Province or territory"
+---

@@ -1,0 +1,52 @@
+---
+# Indicator information
+sdg_goal: 3
+target_id: 3.2
+indicator_number: 3.2.1
+indicator_sort_order: 3.2.1
+
+national_indicator_available: "Under-five mortality rate"
+indicator_name: "Under-five mortality rate"
+target_name: "By 2030, end preventable deaths of newborns and children under 5 years of age, with all countries aiming to reduce neonatal mortality to at least as low as 12 per 1,000 live births and under-5 mortality to at least as low as 25 per 1,000 live births"
+
+
+published: 
+reporting_status: 
+
+national_geographical_coverage: 
+computation_units: 
+data_keywords: 
+
+# Indicator definition and additional information
+national_indicator_description: 
+computation_calculations: 
+comments_limitations:
+
+# Graph
+graph_title: 
+graph_type: 
+
+data_start_values:
+  - field: 
+    value: 
+  - field: 
+    value: 
+
+data_non_statistical: false
+data_show_map: false
+
+# Source
+source_active_1: true
+source_url_text_1: "Statistics Canada. Table 13-10-0709-01  Deaths, by age group and sex"
+source_url_1: "https://doi.org/10.25318/1310070901-eng"
+source_organisation_1: "Statistics Canada"
+source_periodicity_1: "Annual"
+source_geographical_coverage_1: "Canada, Province or territory"
+---
+# Source
+source_active_2: true
+source_url_text_2: "Statistics Canada. Table 13-10-0414-01  Live births, by place of residence of mother"
+source_url_2: "https://doi.org/10.25318/1310041401-eng"
+source_organisation_2: "Statistics Canada"
+source_periodicity_2: "Annual"
+source_geographical_coverage_2: "Canada, Province or territory"

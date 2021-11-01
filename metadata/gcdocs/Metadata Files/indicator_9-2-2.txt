@@ -1,0 +1,45 @@
+---
+# Indicator information
+sdg_goal: 9
+target_id: 9.2
+indicator_number: 9.2.2
+indicator_sort_order: 9.2.2
+
+national_indicator_available: "Manufacturing employment as a proportion of total employment"
+indicator_name: "Manufacturing employment as a proportion of total employment"
+target_name: "Promote inclusive and sustainable industrialization and, by 2030, significantly raise industry’s share of employment and gross domestic product, in line with national circumstances, and double its share in least developed countries"
+
+
+published: 
+reporting_status: 
+
+national_geographical_coverage: 
+computation_units: 
+data_keywords: 
+
+# Indicator definition and additional information
+national_indicator_description: 
+computation_calculations: 
+comments_limitations:
+
+# Graph
+graph_title: 
+graph_type: 
+
+data_start_values:
+  - field: 
+    value: 
+  - field: 
+    value: 
+
+data_non_statistical: false
+data_show_map: false
+
+# Source
+source_active_1: true
+source_url_text_1: "Statistics Canada. Table 14-10-0202-01  Employment by industry, annual"
+source_url_1: "https://doi.org/10.25318/1410020201-eng"
+source_organisation_1: "Statistics Canada"
+source_periodicity_1: "Annual"
+source_geographical_coverage_1: "Canada, Province or territory"
+---

@@ -1,0 +1,44 @@
+---
+# Indicator information
+sdg_goal: 11
+target_id: 11.2
+indicator_number: 11.2.1
+indicator_sort_order: 11.2.1
+
+national_indicator_available: "Proportion of population that has convenient access to public transport, by sex, age and persons with disabilities"
+indicator_name: "Proportion of population that has convenient access to public transport, by sex, age and persons with disabilities"
+target_name: "By 2030, provide access to safe, affordable, accessible and sustainable transport systems for all, improving road safety, notably by expanding public transport, with special attention to the needs of those in vulnerable situations, women, children, persons with disabilities and older persons"
+
+published: 
+reporting_status: 
+
+national_geographical_coverage: 
+computation_units: 
+data_keywords: 
+
+# Indicator definition and additional information
+national_indicator_description: 
+computation_calculations: 
+comments_limitations:
+
+# Graph
+graph_title: 
+graph_type: 
+
+data_start_values:
+  - field: 
+    value: 
+  - field: 
+    value: 
+
+data_non_statistical: false
+data_show_map: false
+
+# Source
+source_active_1: true
+source_url_text_1: "Statistics Canada. Table 23-10-0286-01  Proximity to Public Transportation in Canada's Metropolitan Cities, and related Commuting Data"
+source_url_1: "https://doi.org/10.25318/2310028601-eng"
+source_organisation_1: "Statistics Canada"
+source_periodicity_1: "Occasional"
+source_geographical_coverage_1: "Province or territory, Census subdivision, Census metropolitan area, Census metropolitan area part"
+---
