@@ -1,0 +1,13 @@
+<p>Indicator 1.4.1: Proportion of population living in households with access to basic services</p>
+<p>Indicator 11.1.1: Proportion of urban population living in slums, informal settlements or inadequate housing</p>
+<p>Indicator 11.7.1: Average share of the built-up area of cities that is open space for public use for all, by sex, age and persons with disabilities</p>
+<p>Indicator: 12.3.1 (a) Food loss index and (b) food waste index </p>
+<p><u>This metadata refers only to part (a) of the indicator 12.3.1: Food loss index.</u></p>
+<p>Indicator: 13.2.2 Total greenhouse gas emissions per year</p>
+<p>Indicator 15.6.1: Number of countries that have adopted legislative, administrative and policy frameworks to ensure fair and equitable sharing of benefits</p>
+<p>Indicator 17.3.1: Foreign direct investments, official development assistance and South-South Cooperation as a proportion of gross national income</p>
+<p>Indicator 17.4.1: Debt service as a proportion of exports of goods and services</p>
+<p>Indicator 3.d.1: International Health Regulations (IHR) capacity and health emergency preparedness</p>
+<p>Indicator 3.d.2: Percentage of bloodstream infections due to selected antimicrobial-resistant organisms</p>
+<p>Indicator 8.1.1: Annual growth rate of real GDP per capita</p>
+<p>Indicator 8.b.1: Existence of a developed and operationalized national strategy for youth employment, as a distinct strategy or as part of a national employment strategy </p>

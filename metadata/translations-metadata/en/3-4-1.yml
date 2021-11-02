@@ -17,12 +17,8 @@ CONTACT_ORGANISATION: |-
 STAT_CONC_DEF: >-
   <p>Definitions: </p>
 
-  <p> </p>
-
-  <p>Mortality rate attributed to cardiovascular disease, cancer, diabetes or
-  chronic respiratory disease. </p>
-
-  <p>Probability of dying between the ages of 30 and 70 years from
+  <p><strong>Mortality rate attributed to cardiovascular disease, cancer, diabetes or
+  chronic respiratory disease</strong>: Probability of dying between the ages of 30 and 70 years from
   cardiovascular diseases, cancer, diabetes or chronic respiratory diseases,
   defined as the per cent of 30-year-old-people who would die before their 70th
   birthday from cardiovascular disease, cancer, diabetes, or chronic respiratory

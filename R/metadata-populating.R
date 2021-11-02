@@ -8,6 +8,8 @@ library(purrr)
 
 extract_en_metadata <- function(yml_file) {
   
+  yml_file <- "12-3-1a.yml"
+  
   # extract indicator number from file path
   file_name <- yml_file
   
@@ -19,7 +21,15 @@ extract_en_metadata <- function(yml_file) {
   
   # extract definition from definition and concepts (WIP)
   definition_field <- unlist(str_split(raw_meta$STAT_CONC_DEF, "\n"))
-  definition_position <- which(str_detect(definition_field, "Definition:")) + 1
+  
+  if ( any(str_detect(definition_field, "Definition:")) ) {
+    definition_position <- which(str_detect(definition_field, "Definition:")) + 1
+  } else if ( any(str_detect(definition_field, "Definitions:")) ) {
+    definition_position <- which(str_detect(definition_field, "Definitions:")) + 1
+  } else {
+    definition_position <- NULL
+  }
+  
   raw_meta$STAT_CONC_DEF  <- definition_field[definition_position]
   
   # create global metadata fields
@@ -72,7 +82,6 @@ extract_source_metadata <- function(source_file) {
     source_metadata$COVERAGE <- source_metadata$source_geographical_coverage_1
   
     return(source_metadata)
-    #write_yaml(source_metadata, "test_source.yml")
     
   }
   
@@ -95,3 +104,26 @@ all_metadata_files <- all_metadata_files[!str_ends(all_metadata_files, "5-4-1.ym
 all_metadata <- map(all_metadata_files, write_new_metadata)
 
 
+# investigate definitions ------------------------------------------------
+
+all_metadata <- map(all_metadata_files, extract_en_metadata)
+#test_md <- sapply(head(all_metadata), "[", "STAT_CONC_DEF")
+
+index <- c()
+for (i in (1:length(all_metadata))) {
+  if ( length(all_metadata[[i]]$STAT_CONC_DEF) == 0 ) {
+    index <- c(index, i)
+  } else {
+    index <- c(index)
+  }
+}
+
+all_metadata[index][[1]]$SDG_INDICATOR
+
+no_def_indicators <- c()
+for (i in (1:length(all_metadata[index]))) {
+  no_def_indicators <- c(no_def_indicators, all_metadata[index][[i]]$SDG_INDICATOR)
+}
+no_def_indicators
+
+writeLines(no_def_indicators, "no_definitions2.txt")
