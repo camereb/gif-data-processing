@@ -8,8 +8,6 @@ library(purrr)
 
 extract_en_metadata <- function(yml_file) {
   
-  yml_file <- "12-3-1a.yml"
-  
   # extract indicator number from file path
   file_name <- yml_file
   
@@ -75,6 +73,7 @@ extract_source_metadata <- function(source_file) {
     # format for yaml file
     field_names <- str_remove(str_extract(fields, "^\\w*:"), ":")
     fields <- trimws(str_remove(fields, "^\\w*:"))
+    fields <- str_remove_all(fields, "\"")
     names(fields) <- field_names
     source_metadata <- as.list(fields)
     
@@ -105,25 +104,23 @@ all_metadata <- map(all_metadata_files, write_new_metadata)
 
 
 # investigate definitions ------------------------------------------------
-
-all_metadata <- map(all_metadata_files, extract_en_metadata)
-#test_md <- sapply(head(all_metadata), "[", "STAT_CONC_DEF")
-
-index <- c()
-for (i in (1:length(all_metadata))) {
-  if ( length(all_metadata[[i]]$STAT_CONC_DEF) == 0 ) {
-    index <- c(index, i)
-  } else {
-    index <- c(index)
-  }
-}
-
-all_metadata[index][[1]]$SDG_INDICATOR
-
-no_def_indicators <- c()
-for (i in (1:length(all_metadata[index]))) {
-  no_def_indicators <- c(no_def_indicators, all_metadata[index][[i]]$SDG_INDICATOR)
-}
-no_def_indicators
-
-writeLines(no_def_indicators, "no_definitions2.txt")
+# 
+# all_metadata <- map(all_metadata_files, extract_en_metadata)
+# 
+# index <- c()
+# for (i in (1:length(all_metadata))) {
+#   if ( length(all_metadata[[i]]$STAT_CONC_DEF) == 0 ) {
+#     index <- c(index, i)
+#   } else {
+#     index <- c(index)
+#   }
+# }
+# 
+# all_metadata[index][[1]]$SDG_INDICATOR
+# 
+# no_def_indicators <- c()
+# for (i in (1:length(all_metadata[index]))) {
+#   no_def_indicators <- c(no_def_indicators, all_metadata[index][[i]]$SDG_INDICATOR)
+# }
+# 
+# writeLines(no_def_indicators, "no_definitions2.txt")
