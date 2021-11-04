@@ -55,37 +55,46 @@ extract_fr_metadata <- function(yml_file) {
 
 # Extract sources from gcdocs metadata --------------------------------
 
-# extract_fr_source_metadata <- function(source_file) {
-#   
-#   source_file <- paste0("indicator_", str_replace(source_file, ".yml", ".txt"))
-#   source_file <- here("metadata", "gcdocs", source_file)
-#   
-#   if (!file.exists(source_file)) {
-#     
-#     return(NULL)
-#     
-#   } else {
-#     
-#     # read metadata files (text files)
-#     gcdocs_md <- readLines(source_file) 
-#     
-#     # filter for source fields
-#     fields <- gcdocs_md[which(str_detect(gcdocs_md, "source"))]
-#     
-#     # format for yaml file
-#     field_names <- str_remove(str_extract(fields, "^\\w*:"), ":")
-#     fields <- trimws(str_remove(fields, "^\\w*:"))
-#     names(fields) <- field_names
-#     source_metadata <- as.list(fields)
-#     
-#     source_metadata$reporting_status <- "complete"
-#     source_metadata$COVERAGE <- source_metadata$source_geographical_coverage_1
-#     
-#     return(source_metadata)
-#     
-#   }
-#   
-# }
+
+
+extract_fr_source_metadata <- function(source_file) {
+  
+  source_file <- "3-1-1.yml"
+
+  source_file <- paste0("indicator_", str_replace(source_file, ".yml", ".txt"))
+  source_file <- here("metadata", "gcdocs", source_file)
+
+  if (!file.exists(source_file)) {
+
+    return(NULL)
+
+  } else {
+
+    # read metadata files (text files)
+    gcdocs_md <- readLines(source_file)
+
+    # filter for source fields
+    fields <- gcdocs_md[which(str_detect(gcdocs_md, "source"))]
+    table_no <- str_extract(sources, "[0-9]*-[0-9]*-[0-9]*-[0-9]*")
+    
+    # format for yaml file
+    field_names <- str_remove(str_extract(fields, "^\\w*:"), ":")
+    fields <- trimws(str_remove(fields, "^\\w*:"))
+    names(fields) <- field_names
+    source_metadata <- as.list(fields)
+    
+    #source_metadata$source_url_1 <- 
+      str_replace(source_metadata$source_url_1, "-eng", "-fra")
+    
+
+    source_metadata$reporting_status <- "complete"
+    source_metadata$COVERAGE <- source_metadata$source_geographical_coverage_1
+
+    return(source_metadata)
+
+  }
+
+}
 
 write_new_metadata_fr <- function(file) {
   
