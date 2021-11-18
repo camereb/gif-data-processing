@@ -22,10 +22,14 @@ extract_en_metadata <- function(yml_file) {
   
   if ( any(str_detect(definition_field, "Definition:")) ) {
     definition_position <- which(str_detect(definition_field, "Definition:")) + 1
+    raw_meta$STAT_CONC_DEF  <- definition_field[definition_position]
   } else if ( any(str_detect(definition_field, "Definitions:")) ) {
     definition_position <- which(str_detect(definition_field, "Definitions:")) + 1
+    raw_meta$STAT_CONC_DEF  <- definition_field[definition_position]
   } else {
     definition_position <- NULL
+    raw_meta$STAT_CONC_DEF  <- "   "
+    
   }
   
   raw_meta$STAT_CONC_DEF  <- definition_field[definition_position]
@@ -34,6 +38,8 @@ extract_en_metadata <- function(yml_file) {
   raw_meta$SDG_GOAL__GLOBAL <- raw_meta$SDG_GOAL
   raw_meta$SDG_TARGET__GLOBAL <- raw_meta$SDG_TARGET
   raw_meta$SDG_INDICATOR__GLOBAL <- raw_meta$SDG_INDICATOR
+  raw_meta$DATA_COMP <- "   "
+  raw_meta$REC_USE_LIM <- "   "
   
   # fields to take from the raw_meta data
   fields <- c(
@@ -41,6 +47,8 @@ extract_en_metadata <- function(yml_file) {
     "SDG_TARGET",
     "SDG_INDICATOR",
     "STAT_CONC_DEF",
+    "DATA_COMP",
+    "REC_USE_LIM",
     "SDG_GOAL__GLOBAL",
     "SDG_TARGET__GLOBAL",
     "SDG_INDICATOR__GLOBAL"
@@ -97,13 +105,20 @@ write_new_metadata <- function(file) {
   
 }
 
+
+
+# run script on all meta files --------------------------------------------
+
+
 all_metadata_files <- list.files(here("metadata", "translations-metadata", "en"))
 # temp until can figure out 5-4-1 fix
 all_metadata_files <- all_metadata_files[!str_ends(all_metadata_files, "5-4-1.yml")]
 all_metadata <- map(all_metadata_files, write_new_metadata)
 
 
-# investigate definitions ------------------------------------------------
+
+
+# # investigate definitions ------------------------------------------------
 # 
 # all_metadata <- map(all_metadata_files, extract_en_metadata)
 # 

@@ -9,9 +9,9 @@ SDG_TARGET: '<p>Target 3.b: Support the research and development of vaccines and
   for all</p>'
 SDG_INDICATOR: '<p>Indicator 3.b.1: Proportion of the target population covered by
   all vaccines included in their national programme</p>'
-STAT_CONC_DEF: <p><strong><em>Coverage of DTP containing vaccine (3<sup>rd</sup> dose)</em></strong><em>:</em>
-  Percentage of surviving infants who received the 3 doses of diphtheria and tetanus
-  toxoid with pertussis containing vaccine in a given year.</p>
+STAT_CONC_DEF: '    '
+DATA_COMP: '   '
+REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 3: Ensure healthy lives and promote well-being for all
   at all ages</p>'
 SDG_TARGET__GLOBAL: '<p>Target 3.b: Support the research and development of vaccines
@@ -24,3 +24,9 @@ SDG_TARGET__GLOBAL: '<p>Target 3.b: Support the research and development of vacc
   for all</p>'
 SDG_INDICATOR__GLOBAL: '<p>Indicator 3.b.1: Proportion of the target population covered
   by all vaccines included in their national programme</p>'
+un_designated_tier: Tier I
+un_custodian_agency: World Health Organization (WHO),  United Nations International
+  Children's Emergency Fund (UNICEF)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-03-0b-01.pdf
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 4.0
+  MB)

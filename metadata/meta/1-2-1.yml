@@ -11,6 +11,8 @@ STAT_CONC_DEF: <p>The national poverty rate is the percentage of the total popul
   is the percentage of the urban population living below the national poverty line
   (or in cases where a separate, urban poverty line is used, the urban poverty line).
   </p>
+DATA_COMP: '  '
+REC_USE_LIM: '  '
 SDG_GOAL__GLOBAL: '<p>Goal 1: End poverty in all its forms everywhere</p>'
 SDG_TARGET__GLOBAL: '<p>Target: 1.2 By 2030, reduce at least by half the proportion
   of men, women and children of all ages living in poverty in all its dimensions according
@@ -28,3 +30,8 @@ source_geographical_coverage_1: Canada, Geographical region of Canada, Province 
 reporting_status: complete
 COVERAGE: Canada, Geographical region of Canada, Province or territory, Census metropolitan
   area
+un_designated_tier: Tier I
+un_custodian_agency: World Bank (WB)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-01-02-01.pdf
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 98.2
+  KB)

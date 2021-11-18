@@ -7,6 +7,8 @@ SDG_INDICATOR: '<p>Indicator 16.10.2: Number of countries that adopt and impleme
   constitutional, statutory and/or policy guarantees for public access to information</p>'
 STAT_CONC_DEF: <p>Number of countries that adopt and implement constitutional, statutory
   and/or policy guarantees for public access to information.</p>
+DATA_COMP: '   '
+REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 16: Promote peaceful and inclusive societies for sustainable
   development, provide access to justice for all and build effective, accountable
   and inclusive institutions at all levels</p>'
@@ -15,3 +17,9 @@ SDG_TARGET__GLOBAL: '<p>Target 16.10: Ensure public access to information and pr
   agreements</p>'
 SDG_INDICATOR__GLOBAL: '<p>Indicator 16.10.2: Number of countries that adopt and implement
   constitutional, statutory and/or policy guarantees for public access to information</p>'
+un_designated_tier: Tier I
+un_custodian_agency: United Nations Educational, Scientific and Cultural Organization
+  - Institute for Statistics (UNESCO-UIS)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-16-10-02.pdf
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 82.8
+  KB)

@@ -7,6 +7,8 @@ SDG_INDICATOR: '<p>Indicator 15.a.1: (a) Official development assistance on cons
   and sustainable use of biodiversity; and (b) revenue generated and finance mobilized
   from biodiversity-relevant economic instruments</p>'
 STAT_CONC_DEF: <p>This is a twin indicator consisting of:</p>
+DATA_COMP: '   '
+REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 15: Protect, restore and promote sustainable use of terrestrial
   ecosystems, sustainably manage forests, combat desertification, and halt and reverse
   land degradation and halt biodiversity loss</p>'
@@ -15,3 +17,7 @@ SDG_TARGET__GLOBAL: '<p>Target 15.a: Mobilize and significantly increase financi
 SDG_INDICATOR__GLOBAL: '<p>Indicator 15.a.1: (a) Official development assistance on
   conservation and sustainable use of biodiversity; and (b) revenue generated and
   finance mobilized from biodiversity-relevant economic instruments</p>'
+un_designated_tier: Tier I
+un_custodian_agency: Organisation for Economic Cooperation and Development (OECD)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/?Text=&Goal=&Target=15.a
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata

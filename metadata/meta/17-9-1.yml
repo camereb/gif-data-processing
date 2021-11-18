@@ -9,6 +9,8 @@ SDG_INDICATOR: '<p>Indicator 17.9.1: Dollar value of financial and technical ass
   to developing countries</p>'
 STAT_CONC_DEF: <p>Gross disbursements of total ODA and other official flows from all
   donors for capacity building and national planning.</p>
+DATA_COMP: '   '
+REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 17: Strengthen the means of implementation and revitalize
   the Global Partnership for Sustainable Development</p>'
 SDG_TARGET__GLOBAL: '<p>Target 17.9 : Enhance international support for implementing
@@ -18,3 +20,9 @@ SDG_TARGET__GLOBAL: '<p>Target 17.9 : Enhance international support for implemen
 SDG_INDICATOR__GLOBAL: '<p>Indicator 17.9.1: Dollar value of financial and technical
   assistance (including through North-South, South-South and triangular cooperation)
   committed to developing countries</p>'
+un_designated_tier: Tier I
+un_custodian_agency: Organisation for Economic Co-operation and Development (OECD),
+  United Nations Environment (UNEP), World Bank (WB)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-17-09-01.pdf
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 209
+  KB)

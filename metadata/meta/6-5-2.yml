@@ -13,9 +13,18 @@ STAT_CONC_DEF: <p>The proportion of transboundary basin area with an operational
   the aggregate total area in a country of all transboundary basins (both catchments
   and aquifers). The result is multiplied by 100 to obtain it expressed as percentage
   share.</p>
+DATA_COMP: '   '
+REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 6: Ensure availability and sustainable management of water
   and sanitation for all</p>'
 SDG_TARGET__GLOBAL: '<p>Target 6.5: By 2030, implement integrated water resources
   management at all levels, including through transboundary cooperation as appropriate</p>'
 SDG_INDICATOR__GLOBAL: '<p>Indicator 6.5.2: Proportion of transboundary basin area
   with an operational arrangement for water cooperation</p>'
+un_designated_tier: Tier I
+un_custodian_agency: United Nations Education and Scientific Cultural Organisation
+  - Institute for Statistics (UNESCO-UIS), United Nations Economic Commission for
+  Europe (UNECE)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-06-05-02.pdf
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 4.0
+  MB)

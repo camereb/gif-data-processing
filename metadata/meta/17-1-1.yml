@@ -22,6 +22,8 @@ STAT_CONC_DEF: '<p>Revenue is defined in Chapter 4 (paragraph 4.23) of GFSM 2014
   (iii) fines, penalties, and forfeits; (iv) transfers not elsewhere classified; and
   (v) premiums, fees, and claims related to nonlife insurance and standardized guarantee
   schemes.</p>'
+DATA_COMP: '   '
+REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 17: Strengthen the means of implementation and revitalize
   the Global Partnership for Sustainable Development</p>'
 SDG_TARGET__GLOBAL: '<p>Target 17.1: Strengthen domestic resource mobilization, including
@@ -59,3 +61,8 @@ source_periodicity_3: Quarterly
 source_geographical_coverage_3: Canada
 reporting_status: complete
 COVERAGE: Canada, Province or territory
+un_designated_tier: Tier I
+un_custodian_agency: International Monetary Fund (IMF)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-17-01-01.pdf
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 469
+  KB)

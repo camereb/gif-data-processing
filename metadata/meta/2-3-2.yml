@@ -11,6 +11,8 @@ STAT_CONC_DEF: <p>SDG indicator 2.3.2 measures income from on-farm production ac
   which is related to the production of food and agricultural products. This includes
   income from crop production, livestock production, fisheries and aquaculture production,
   and from forestry production. </p>
+DATA_COMP: '   '
+REC_USE_LIM: '   '
 SDG_GOAL__GLOBAL: '<p>Goal 2: End hunger, achieve food security and improved nutrition
   and promote sustainable agriculture</p>'
 SDG_TARGET__GLOBAL: '<p>Target 2.3: By 2030, double the agricultural productivity
@@ -20,3 +22,8 @@ SDG_TARGET__GLOBAL: '<p>Target 2.3: By 2030, double the agricultural productivit
   and opportunities for value addition and non-farm employment</p>'
 SDG_INDICATOR__GLOBAL: '<p>Indicator 2.3.2: Average income of small-scale food producers,
   by sex and indigenous status</p>'
+un_designated_tier: Tier II
+un_custodian_agency: Food and Agriculture Organization (FAO)
+goal_meta_link: https://unstats.un.org/sdgs/metadata/files/Metadata-02-03-02.pdf
+goal_meta_link_text: United Nations Sustainable Development Goals Metadata (PDF 4.0
+  MB)
