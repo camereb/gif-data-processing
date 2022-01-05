@@ -1,16 +1,24 @@
+
+# Indicator 1.a.2: ------------------------------------------------
+# Proportion of total government spending on essential services
+
 # load packages
 library(tidyverse)
 library(cansim)
 library(here)
 
 # get CODR table
-gov_spending <- get_cansim("10-10-0024-01") %>% janitor::clean_names()
+gov_spending <- get_cansim("10-10-0024-01", factors = FALSE) %>% janitor::clean_names()
 
 # keep needed data and tidy data for open sdg format
 gov_spending_tidy <- 
   gov_spending %>%
   select(year = ref_date, geo, value, public_sector_components, gov_functions = canadian_classification_of_functions_of_government_ccofog, hierarchy = hierarchy_for_canadian_classification_of_functions_of_government_ccofog) %>%
-  filter(year>=2015, as.numeric(hierarchy)%%1 == 0, value > 0) %>%
+  filter(
+    year >= 2015, 
+    as.numeric(hierarchy) %% 1 == 0, 
+    value > 0
+    ) %>%
   mutate(
     gov_functions = str_trim(str_remove_all(gov_functions, "\\[[0-9]*\\]")),
     gov_functions = ifelse(gov_functions %in% c("Education", "Health", "Social protection"), gov_functions, "Other expenditure")
@@ -25,7 +33,7 @@ gov_spending_final <-
     value = round((value/sum(value))*100, 3)
   )
 
-# Calculuate total line for total % on essential services federally
+# Calculate total line for total % on essential services federally
 total_line <- 
   gov_spending_tidy %>%
     filter(geo == "Canada") %>%
@@ -39,7 +47,7 @@ total_line <-
     mutate(geo = "", gov_functions = "") %>%
     relocate(geo, .after = year)
 
-# Calculuate total line for total % on essential services provincially
+# Calculate total line for total % on essential services provincially
 total_line_prov <-
   gov_spending_tidy %>%
     mutate(gov_functions = ifelse(gov_functions %in% c("Education", "Health", "Social protection"), "Essential", gov_functions)) %>%
