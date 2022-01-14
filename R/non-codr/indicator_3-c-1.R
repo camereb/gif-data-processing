@@ -63,7 +63,7 @@ total_population_est <-
 canadian_health_workforce <- 
   canadian_health_workforce_counts %>%
   group_by(Year, `Type of provider`) %>%
-  summarise(Value = sum(Value), .groups = "keep") %>%
+  summarise(Value = sum(Value, na.rm = TRUE), .groups = "keep") %>%
   arrange(`Type of provider`) %>%
   left_join(total_population_est) %>%
   transmute(Value = round((Value/Population)*100000, 2)) %>%
@@ -73,5 +73,6 @@ canadian_health_workforce <-
 # combine everything
 data_final <-
   bind_rows(canadian_health_workforce, pt_health_workforce)
+# View(data_final)
 
 write_csv(data_final, here("gif-data-processing", "data", "indicator_3-c-1.csv"), na = "")

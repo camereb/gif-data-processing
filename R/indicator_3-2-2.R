@@ -28,9 +28,8 @@ total_line <-
 data_final <-
   bind_rows(
     total_line,
-    neonat_mort_rate
-    # neonat_mort_rate %>%
-    #   filter(!(Sex == "Both sexes" & Age == "Total infant deaths under 1 year"))
+    neonat_mort_rate %>%
+      filter(!(Sex == "Both sexes" & Age == "Total infant deaths under 1 year"))
   )
 
 write_csv(data_final, here("gif-data-processing", "data", "indicator_3-2-2.csv"))

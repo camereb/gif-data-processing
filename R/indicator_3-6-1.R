@@ -41,6 +41,11 @@ total_line <-
     ) %>%
   mutate_at(c("Sex", "Age", "Cause of death"), ~ "")  
 
-data_final <- bind_rows(total_line, transport_deaths)  
+data_final <- 
+  bind_rows(
+    total_line, 
+    transport_deaths %>%
+      filter(!(Age == "All ages" & Sex == "Both sexes" & `Cause of death` == "Transport accidents"))
+    )  
 
 write_csv(data_final, here("gif-data-processing", "data", "indicator_3-6-1.csv"))
