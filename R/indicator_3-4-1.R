@@ -8,9 +8,11 @@ library(stringr)
 library(here)
 library(readr)
 
+# get data from stc api
 mortality_data <- get_cansim("13-10-0394-01", factors = FALSE)
 View(mortality_data)
 
+# diseases considered in this indicator
 diseases <- c(
   "Malignant neoplasms [C00-C97]",
   "In situ neoplasms, benign neoplasms and neoplasms of uncertain or unknown behaviour [D00-D48]",
@@ -21,6 +23,7 @@ diseases <- c(
   "Chronic lower respiratory diseases [J40-J47]"
 )
 
+# ages considered in this indicator
 ages <- c(
   "Age at time of death, 30 to 34 years",
   "Age at time of death, 35 to 44 years",
@@ -31,10 +34,9 @@ ages <- c(
   "Age at time of death, 85 and over"
 )
 
-names(mortality_data)
 
-# disease_mort_rate
-mortality_data %>%
+data_final <- 
+  mortality_data %>%
   filter(
     REF_DATE >= 2015,
     UOM == "Percentage",
@@ -56,18 +58,21 @@ mortality_data %>%
     Value = VALUE
     )
 
-# total_line <- 
-#   suicide_mort_rate %>%
-#   filter(Geography == "Canada" & Sex == "Both sexes") %>%
+write_csv(data_final, here("gif-data-processing", "data", "indicator_3-4-1.csv"))
+
+# total_line <-
+#   mortality_data %>%
+#   filter(
+#     Geography == "Canada", 
+#     Sex == "Both sexes"
+#     )
 #   mutate_at(c("Geography", "Sex"), ~ "")
-# 
+
 # data_final <-
 #   bind_rows(
 #     total_line,
 #     suicide_mort_rate
 #     # suicide_mort_rate %>%
 #     #   filter(!(Geography == "Canada" & Sex == "Both sexes"))
-#   ) %>% 
+#   ) %>%
 #   filter(!str_starts(Geography, "Unknown"))
-# 
-# write_csv(data_final, here("gif-data-processing", "data", "indicator_3-4-2.csv"))
