@@ -1,0 +1,281 @@
+GEO_NAME,Census year,Sex,Marital status, Total - Age,15 to 19 years,20 to 24 years
+Canada,2016,Female,Total - Marital status,15040880,986940,1098200
+Canada,2016,Female,Married or living common law,8441580,16420,206195
+Canada,2016,Female,Married,6689990,1910,55235
+Canada,2016,Female,Living common law,1751590,14505,150955
+Canada,2011,Female,Total - Marital status,14326215,1062290,1078670
+Canada,2011,Female,Married or living common law,8038700,23585,231245
+Canada,2011,Female,Married,6471665,3400,71835
+Canada,2011,Female,Living common law,1567035,20185,159410
+Canada,2006,Female,Total - Marital status,13414410,1045205,1032435
+Canada,2006,Female,Married or living common law,7596235,30445,243225
+Canada,2006,Female,Married,6234660,7430,85055
+Canada,2006,Female,Living common law,1361575,23010,158170
+Canada,2001,Female,Total - Marital status,12505700,1001180,973530
+Canada,2001,Female,Married or living common law,7142000,29630,249335
+Canada,2001,Female,Married,6003230,6145,99215
+Canada,2001,Female,Living common law,1138775,23485,150120
+Canada,1996,Female,Total - Marital status,11800670,955765,946225
+Canada,1996,Female,Married or living common law,6781110,32610,262800
+Canada,1996,Female,Married,5866725,7415,124685
+Canada,1996,Female,Living common law,914385,25195,138115
+Newfoundland and Labrador,2016,Female,Total - Marital status,229550,13275,13785
+Newfoundland and Labrador,2016,Female,Married or living common law,138660,245,2725
+Newfoundland and Labrador,2016,Female,Married,115355,10,400
+Newfoundland and Labrador,2016,Female,Living common law,23305,230,2325
+Newfoundland and Labrador,2011,Female,Total - Marital status,226600,14410,14975
+Newfoundland and Labrador,2011,Female,Married or living common law,136600,295,2845
+Newfoundland and Labrador,2011,Female,Married,115905,15,540
+Newfoundland and Labrador,2011,Female,Living common law,20690,280,2305
+Newfoundland and Labrador,2006,Female,Total - Marital status,221540,16750,15890
+Newfoundland and Labrador,2006,Female,Married or living common law,132555,325,2680
+Newfoundland and Labrador,2006,Female,Married,115955,70,735
+Newfoundland and Labrador,2006,Female,Living common law,16595,250,1945
+Newfoundland and Labrador,2001,Female,Total - Marital status,218750,19385,17150
+Newfoundland and Labrador,2001,Female,Married or living common law,131905,345,3505
+Newfoundland and Labrador,2001,Female,Married,117500,55,1260
+Newfoundland and Labrador,2001,Female,Living common law,14405,290,2250
+Newfoundland and Labrador,1996,Female,Total - Marital status,225615,22455,21175
+Newfoundland and Labrador,1996,Female,Married or living common law,136170,485,5160
+Newfoundland and Labrador,1996,Female,Married,123025,95,2315
+Newfoundland and Labrador,1996,Female,Living common law,13145,395,2845
+Prince Edward Island,2016,Female,Total - Marital status,62485,4210,4230
+Prince Edward Island,2016,Female,Married or living common law,35840,75,805
+Prince Edward Island,2016,Female,Married,30430,15,170
+Prince Edward Island,2016,Female,Living common law,5405,60,630
+Prince Edward Island,2011,Female,Total - Marital status,61240,4720,4440
+Prince Edward Island,2011,Female,Married or living common law,34970,95,850
+Prince Edward Island,2011,Female,Married,30370,5,240
+Prince Edward Island,2011,Female,Living common law,4600,90,610
+Prince Edward Island,2006,Female,Total - Marital status,58530,4940,4400
+Prince Edward Island,2006,Female,Married or living common law,33200,105,905
+Prince Edward Island,2006,Female,Married,29145,25,315
+Prince Edward Island,2006,Female,Living common law,4060,80,590
+Prince Edward Island,2001,Female,Total - Marital status,56490,5050,4415
+Prince Edward Island,2001,Female,Married or living common law,32370,150,1145
+Prince Edward Island,2001,Female,Married,28840,20,490
+Prince Edward Island,2001,Female,Living common law,3530,130,655
+Prince Edward Island,1996,Female,Total - Marital status,54205,4875,4585
+Prince Edward Island,1996,Female,Married or living common law,31125,125,1275
+Prince Edward Island,1996,Female,Married,28350,25,645
+Prince Edward Island,1996,Female,Living common law,2770,105,630
+Nova Scotia,2016,Female,Total - Marital status,411255,25015,28010
+Nova Scotia,2016,Female,Married or living common law,227750,480,5440
+Nova Scotia,2016,Female,Married,184990,25,935
+Nova Scotia,2016,Female,Living common law,42760,445,4505
+Nova Scotia,2011,Female,Total - Marital status,408705,28205,29560
+Nova Scotia,2011,Female,Married or living common law,226790,605,6085
+Nova Scotia,2011,Female,Married,188155,60,1350
+Nova Scotia,2011,Female,Living common law,38635,545,4740
+Nova Scotia,2006,Female,Total - Marital status,401695,30245,28715
+Nova Scotia,2006,Female,Married or living common law,224135,740,6125
+Nova Scotia,2006,Female,Married,189865,135,1540
+Nova Scotia,2006,Female,Living common law,34270,600,4590
+Nova Scotia,2001,Female,Total - Marital status,388060,30190,28815
+Nova Scotia,2001,Female,Married or living common law,220165,660,6745
+Nova Scotia,2001,Female,Married,190720,95,2310
+Nova Scotia,2001,Female,Living common law,29445,570,4435
+Nova Scotia,1996,Female,Total - Marital status,378930,30595,31120
+Nova Scotia,1996,Female,Married or living common law,215665,735,7970
+Nova Scotia,1996,Female,Married,191690,135,3645
+Nova Scotia,1996,Female,Living common law,23980,600,4325
+New Brunswick,2016,Female,Total - Marital status,327570,19705,20165
+New Brunswick,2016,Female,Married or living common law,189820,510,5010
+New Brunswick,2016,Female,Married,150925,25,910
+New Brunswick,2016,Female,Living common law,38895,485,4105
+New Brunswick,2011,Female,Total - Marital status,329110,22265,21850
+New Brunswick,2011,Female,Married or living common law,191260,675,5675
+New Brunswick,2011,Female,Married,155190,50,1355
+New Brunswick,2011,Female,Living common law,36070,625,4325
+New Brunswick,2006,Female,Total - Marital status,316900,23240,22320
+New Brunswick,2006,Female,Married or living common law,183850,725,5925
+New Brunswick,2006,Female,Married,152950,115,1610
+New Brunswick,2006,Female,Living common law,30900,605,4315
+New Brunswick,2001,Female,Total - Marital status,309550,24775,23345
+New Brunswick,2001,Female,Married or living common law,181460,840,7070
+New Brunswick,2001,Female,Married,154255,115,2530
+New Brunswick,2001,Female,Living common law,27205,720,4535
+New Brunswick,1996,Female,Total - Marital status,304790,25960,26370
+New Brunswick,1996,Female,Married or living common law,178990,950,8275
+New Brunswick,1996,Female,Married,156610,180,3540
+New Brunswick,1996,Female,Living common law,22380,770,4735
+Quebec,2016,Female,Total - Marital status,3496885,210755,247500
+Quebec,2016,Female,Married or living common law,1919395,4510,55995
+Quebec,2016,Female,Married,1170260,305,8020
+Quebec,2016,Female,Living common law,749135,4205,47975
+Quebec,2011,Female,Total - Marital status,3411255,242020,242340
+Quebec,2011,Female,Married or living common law,1869905,7100,63950
+Quebec,2011,Female,Married,1176050,680,9945
+Quebec,2011,Female,Living common law,693850,6425,54000
+Quebec,2006,Female,Total - Marital status,3245070,232820,233730
+Quebec,2006,Female,Married or living common law,1789220,8130,66495
+Quebec,2006,Female,Married,1180515,1400,10800
+Quebec,2006,Female,Living common law,608700,6730,55695
+Quebec,2001,Female,Total - Marital status,3072125,226220,241270
+Quebec,2001,Female,Married or living common law,1700395,8540,71235
+Quebec,2001,Female,Married,1196470,1065,13285
+Quebec,2001,Female,Living common law,503925,7475,57950
+Quebec,1996,Female,Total - Marital status,2974935,241245,225425
+Quebec,1996,Female,Married or living common law,1658365,9065,71125
+Quebec,1996,Female,Married,1258970,1250,19010
+Quebec,1996,Female,Living common law,399390,7815,52120
+Ontario,2016,Female,Total - Marital status,5812750,394940,436570
+Ontario,2016,Female,Married or living common law,3218795,4225,60085
+Ontario,2016,Female,Married,2767655,720,20340
+Ontario,2016,Female,Living common law,451140,3505,39745
+Ontario,2011,Female,Total - Marital status,5525420,419950,420415
+Ontario,2011,Female,Married or living common law,3079670,5905,67860
+Ontario,2011,Female,Married,2686080,1230,27430
+Ontario,2011,Female,Living common law,393590,4675,40430
+Ontario,2006,Female,Total - Marital status,5152630,405930,396810
+Ontario,2006,Female,Married or living common law,2927385,8535,74575
+Ontario,2006,Female,Married,2583545,3070,34610
+Ontario,2006,Female,Living common law,343840,5460,39965
+Ontario,2001,Female,Total - Marital status,4744935,374500,358775
+Ontario,2001,Female,Married or living common law,2736915,8030,77030
+Ontario,2001,Female,Married,2446120,2545,40115
+Ontario,2001,Female,Living common law,290790,5480,36910
+Ontario,1996,Female,Total - Marital status,4417825,340240,351670
+Ontario,1996,Female,Married or living common law,2542280,9220,80295
+Ontario,1996,Female,Married,2317080,2965,47955
+Ontario,1996,Female,Living common law,225195,6255,32340
+Manitoba,2016,Female,Total - Marital status,528260,39890,42300
+Manitoba,2016,Female,Married or living common law,296335,820,9290
+Manitoba,2016,Female,Married,251180,115,3480
+Manitoba,2016,Female,Living common law,45155,700,5810
+Manitoba,2011,Female,Total - Marital status,501175,42035,40995
+Manitoba,2011,Female,Married or living common law,279210,1155,9855
+Manitoba,2011,Female,Married,239965,240,4055
+Manitoba,2011,Female,Living common law,39245,915,5800
+Manitoba,2006,Female,Total - Marital status,475520,41210,38635
+Manitoba,2006,Female,Married or living common law,264725,1390,9730
+Manitoba,2006,Female,Married,231400,355,4500
+Manitoba,2006,Female,Living common law,33320,1040,5235
+Manitoba,2001,Female,Total - Marital status,455980,39210,36415
+Manitoba,2001,Female,Married or living common law,258425,1465,10500
+Manitoba,2001,Female,Married,229235,350,5335
+Manitoba,2001,Female,Living common law,29195,1115,5165
+Manitoba,1996,Female,Total - Marital status,447110,38030,37650
+Manitoba,1996,Female,Married or living common law,255695,1620,11495
+Manitoba,1996,Female,Married,230565,425,6385
+Manitoba,1996,Female,Living common law,25130,1195,5110
+Saskatchewan,2016,Female,Total - Marital status,447295,32980,33985
+Saskatchewan,2016,Female,Married or living common law,259360,900,8735
+Saskatchewan,2016,Female,Married,218080,70,2570
+Saskatchewan,2016,Female,Living common law,41280,825,6165
+Saskatchewan,2011,Female,Total - Marital status,424980,34885,35470
+Saskatchewan,2011,Female,Married or living common law,243495,1145,9720
+Saskatchewan,2011,Female,Married,207655,115,3350
+Saskatchewan,2011,Female,Living common law,35845,1035,6375
+Saskatchewan,2006,Female,Total - Marital status,401185,36450,33440
+Saskatchewan,2006,Female,Married or living common law,227010,1445,9420
+Saskatchewan,2006,Female,Married,198220,190,3595
+Saskatchewan,2006,Female,Living common law,28795,1255,5825
+Saskatchewan,2001,Female,Total - Marital status,395780,38105,32615
+Saskatchewan,2001,Female,Married or living common law,226750,1420,9950
+Saskatchewan,2001,Female,Married,202010,215,4685
+Saskatchewan,2001,Female,Living common law,24740,1200,5265
+Saskatchewan,1996,Female,Total - Marital status,389330,37275,32085
+Saskatchewan,1996,Female,Married or living common law,228505,1710,10930
+Saskatchewan,1996,Female,Married,206530,260,5790
+Saskatchewan,1996,Female,Living common law,21975,1450,5140
+Alberta,2016,Female,Total - Marital status,1648185,116415,127840
+Alberta,2016,Female,Married or living common law,980890,2455,32070
+Alberta,2016,Female,Married,820790,385,11150
+Alberta,2016,Female,Living common law,160100,2070,20915
+Alberta,2011,Female,Total - Marital status,1483740,116145,126970
+Alberta,2011,Female,Married or living common law,875015,3590,35535
+Alberta,2011,Female,Married,739035,570,13460
+Alberta,2011,Female,Living common law,135975,3015,22080
+Alberta,2006,Female,Total - Marital status,1335630,116075,123005
+Alberta,2006,Female,Married or living common law,786600,5010,36765
+Alberta,2006,Female,Married,672330,1085,15105
+Alberta,2006,Female,Living common law,114275,3920,21660
+Alberta,2001,Female,Total - Marital status,1186865,108925,105395
+Alberta,2001,Female,Married or living common law,703630,4310,32825
+Alberta,2001,Female,Married,611535,815,15720
+Alberta,2001,Female,Living common law,92090,3495,17105
+Alberta,1996,Female,Total - Marital status,1049155,93255,91730
+Alberta,1996,Female,Married or living common law,633165,4330,30910
+Alberta,1996,Female,Married,561550,1025,16750
+Alberta,1996,Female,Living common law,71615,3305,14165
+British Columbia,2016,Female,Total - Marital status,2033825,125980,139945
+British Columbia,2016,Female,Married or living common law,1151150,1980,24805
+British Columbia,2016,Female,Married,965645,230,7130
+British Columbia,2016,Female,Living common law,185500,1745,17675
+British Columbia,2011,Female,Total - Marital status,1913650,133495,137535
+British Columbia,2011,Female,Married or living common law,1079610,2780,27455
+British Columbia,2011,Female,Married,919175,420,9895
+British Columbia,2011,Female,Living common law,160435,2365,17560
+British Columbia,2006,Female,Total - Marital status,1768635,133230,131820
+British Columbia,2006,Female,Married or living common law,1006895,3720,29340
+British Columbia,2006,Female,Married,867275,945,12065
+British Columbia,2006,Female,Living common law,139620,2775,17270
+British Columbia,2001,Female,Total - Marital status,1644500,131080,122125
+British Columbia,2001,Female,Married or living common law,931105,3615,28075
+British Columbia,2001,Female,Married,813920,850,13230
+British Columbia,2001,Female,Living common law,117185,2765,14845
+British Columbia,1996,Female,Total - Marital status,1526580,118295,120900
+British Columbia,1996,Female,Married or living common law,881710,4005,33845
+British Columbia,1996,Female,Married,778825,1030,18220
+British Columbia,1996,Female,Living common law,102885,2970,15625
+Yukon,2016,Female,Total - Marital status,14870,930,930
+Yukon,2016,Female,Married or living common law,8235,20,235
+Yukon,2016,Female,Married,5670,5,45
+Yukon,2016,Female,Living common law,2565,15,190
+Yukon,2011,Female,Total - Marital status,13995,1070,1065
+Yukon,2011,Female,Married or living common law,7640,40,290
+Yukon,2011,Female,Married,5265,5,55
+Yukon,2011,Female,Living common law,2380,35,235
+Yukon,2006,Female,Total - Marital status,12290,1050,925
+Yukon,2006,Female,Married or living common law,6805,55,235
+Yukon,2006,Female,Married,4800,5,45
+Yukon,2006,Female,Living common law,2010,50,195
+Yukon,2001,Female,Total - Marital status,11300,1115,825
+Yukon,2001,Female,Married or living common law,6365,45,245
+Yukon,2001,Female,Married,4575,5,75
+Yukon,2001,Female,Living common law,1795,40,175
+Yukon,1996,Female,Total - Marital status,11345,945,1035
+Yukon,1996,Female,Married or living common law,6860,65,390
+Yukon,1996,Female,Married,5010,5,155
+Yukon,1996,Female,Living common law,1855,60,235
+Northwest Territories,2016,Female,Total - Marital status,16115,1305,1430
+Northwest Territories,2016,Female,Married or living common law,8945,35,385
+Northwest Territories,2016,Female,Married,5735,0,50
+Northwest Territories,2016,Female,Living common law,3205,35,335
+Northwest Territories,2011,Female,Total - Marital status,15925,1625,1650
+Northwest Territories,2011,Female,Married or living common law,8825,65,510
+Northwest Territories,2011,Female,Married,5655,5,85
+Northwest Territories,2011,Female,Living common law,3165,60,430
+Northwest Territories,2006,Female,Total - Marital status,15335,1760,1520
+Northwest Territories,2006,Female,Married or living common law,8660,100,510
+Northwest Territories,2006,Female,Married,5675,15,70
+Northwest Territories,2006,Female,Living common law,2990,80,440
+Northwest Territories,2001,Female,Total - Marital status,13260,1400,1345
+Northwest Territories,2001,Female,Married or living common law,7740,65,465
+Northwest Territories,2001,Female,Married,5230,0,90
+Northwest Territories,2001,Female,Living common law,2515,60,375
+Northwest Territories,1996,Female,Total - Marital status,20850,2600,2475
+Northwest Territories,1996,Female,Married or living common law,12585,290,1125
+Northwest Territories,1996,Female,Married,8530,15,280
+Northwest Territories,1996,Female,Living common law,4055,275,845
+Nunavut,2016,Female,Total - Marital status,11840,1540,1510
+Nunavut,2016,Female,Married or living common law,6420,170,630
+Nunavut,2016,Female,Married,3280,0,50
+Nunavut,2016,Female,Living common law,3140,170,585
+Nunavut,2011,Female,Total - Marital status,10420,1470,1405
+Nunavut,2011,Female,Married or living common law,5715,140,610
+Nunavut,2011,Female,Married,3160,10,80
+Nunavut,2011,Female,Living common law,2555,135,535
+Nunavut,2006,Female,Total - Marital status,9445,1515,1215
+Nunavut,2006,Female,Married or living common law,5195,175,520
+Nunavut,2006,Female,Married,2990,5,70
+Nunavut,2006,Female,Living common law,2210,165,450
+Nunavut,2001,Female,Total - Marital status,8105,1235,1050
+Nunavut,2001,Female,Married or living common law,4770,160,545
+Nunavut,2001,Female,Married,2820,10,90
+Nunavut,2001,Female,Living common law,1955,150,450
+Nunavut,1996,Female,Total - Marital status,..,..,..
+Nunavut,1996,Female,Married or living common law,..,..,..
+Nunavut,1996,Female,Married,..,..,..
+Nunavut,1996,Female,Living common law,..,..,..
