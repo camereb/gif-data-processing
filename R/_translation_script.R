@@ -5,25 +5,28 @@ library(dplyr)
 library(stringr)
 library(readr)
 
-employment_en <- get_cansim("14-10-0202-01", factors = FALSE, language = "en")
-employment_fr <- get_cansim("14-10-0202-01", factors = FALSE, language = "fr")
+en <- get_cansim("27-10-0273-01", factors = FALSE, language = "en")
+fr <- get_cansim("27-10-0273-01", factors = FALSE, language = "fr")
 
-employment_dfs <- list(employment_en, employment_fr)
+dfs <- list(en, fr)
 
-names(employment_en)
+names(en)
 
 filtering_dfs <- function(df) {
   
-  df %>%
-    select(c(5, 22)) %>%
+  en %>%
+    select(c(6, 26)) %>%
     distinct() %>%
-    filter_at(c(2), ~ str_starts(.x, "1.2.3.34")) %>%
-    mutate_at(c(1), ~ str_remove(.x, " \\[.*\\]")) %>%
+    # filter_at(c(2), ~ str_starts(.x, "1.2.3.34")) %>%
+    # mutate_at(c(1), ~ str_remove(.x, " \\[.*\\]")) %>%
     rename_at(c(2), ~ "key")
+    
   
 }
 
-disagg_names <- purrr::map(employment_dfs, filtering_dfs)
+disagg_names <- purrr::map(dfs, filtering_dfs)
+
+disagg_names[[1]] %>% colnames()
 
 translation <- 
   left_join(disagg_names[[1]], disagg_names[[2]]) %>%
