@@ -4,6 +4,7 @@
 # Load packages
 library(cansim)
 library(tidyverse)
+library(here)
 
 # get CODR table
 raw_table <- cansim::get_cansim("11-10-0135-01", factors = FALSE)
