@@ -32,26 +32,28 @@ fruits_veg <-
 
 total <- 
   fruits_veg %>%
-  filter(Geography == "Canada", `Age group` == "Total, 12 years and older", 
+  filter(Geography == "Canada (excluding territories)", `Age group` == "Total, 12 years and over", 
          Sex == "Both sexes") %>%
   mutate_at(2:(ncol(.)-2), ~ "") 
 
 
 #Create the non - aggregate line
 
-fruits_veg <- 
+fruits_veggies <- 
   fruits_veg %>%
-  filter(!(Geography == "Canada"& `Age group` == "Total, 12 years and older"&
+  filter(!(Geography == "Canada (excluding territories)"& `Age group` == "Total, 12 years and over"&
            Sex == "Both sexes")) %>%
   mutate_at(2:(ncol(.)-2), ~ paste0("data.", .x))
 
 
 #Add the two rows together 
  final_data <- 
-   bind_rows(total, fruits_veg)
+   bind_rows(total, fruits_veggies)
 
 names(final_data)[2:(ncol(final_data)-2)] <- paste0("data.", names(final_data)[2:(ncol(final_data)-2)])
 
+
+write_csv(final_data, "CIF/data/indicator_3-1-1.csv", na = "")
 
 
 
