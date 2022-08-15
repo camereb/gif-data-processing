@@ -23,3 +23,4 @@ body_mass <-
 
 names(body_mass)[2:(ncol(body_mass)-1)] <- paste0("data.",names(body_mass)[2:(ncol(body_mass)-1)])
 
+write_csv(body_mass, "CIF/data/indicator_3-3-1.csv", na = "")
