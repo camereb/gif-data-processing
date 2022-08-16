@@ -44,7 +44,7 @@ final_data <-
 
 names(final_data)[2:(ncol(final_data)-2)] <- paste0("data.", names(final_data)[2:(ncol(final_data)-2)])
 
-write_csv(final_data, "CIF/data/indicator_3-5-1,csv", na = "")
+write_csv(final_data, "CIF/data/indicator_3-5-1.csv", na = "")
 
 
 
