@@ -1,0 +1,332 @@
+Year,data.Geography,data.Type of electricity generation,GeoCode,Value
+2015,"","",,63.523
+2016,"","",,64.098
+2017,"","",,65.364
+2018,"","",,65.182
+2019,"","",,64.934
+2020,"","",,66.324
+2015,data.Canada,data.Hydraulic turbine,,59.107
+2015,data.Canada,data.Tidal power turbine,,0.002
+2015,data.Canada,data.Wind power turbine,,4.169
+2015,data.Canada,data.Solar,,0.223
+2015,data.Canada,data.Other types of electricity generation,,0.022
+2015,data.Newfoundland and Labrador,"data.Total hydro, tidal, wind, solar and other generation",10,95.462
+2015,data.Newfoundland and Labrador,data.Hydraulic turbine,10,95.049
+2015,data.Newfoundland and Labrador,data.Wind power turbine,10,0.413
+2015,data.Prince Edward Island,"data.Total hydro, tidal, wind, solar and other generation",11,98.403
+2015,data.Prince Edward Island,data.Wind power turbine,11,98.403
+2015,data.Nova Scotia,"data.Total hydro, tidal, wind, solar and other generation",12,17.902
+2015,data.Nova Scotia,data.Hydraulic turbine,12,9.87
+2015,data.Nova Scotia,data.Tidal power turbine,12,0.125
+2015,data.Nova Scotia,data.Wind power turbine,12,7.907
+2015,data.New Brunswick,"data.Total hydro, tidal, wind, solar and other generation",13,24.442
+2015,data.New Brunswick,data.Hydraulic turbine,13,18.76
+2015,data.New Brunswick,data.Wind power turbine,13,5.682
+2015,data.New Brunswick,data.Other types of electricity generation,13,0
+2015,data.Quebec,"data.Total hydro, tidal, wind, solar and other generation",24,99.168
+2015,data.Quebec,data.Hydraulic turbine,24,95.996
+2015,data.Quebec,data.Wind power turbine,24,3.171
+2015,data.Quebec,data.Solar,24,0.001
+2015,data.Quebec,data.Other types of electricity generation,24,0
+2015,data.Ontario,"data.Total hydro, tidal, wind, solar and other generation",35,30.311
+2015,data.Ontario,data.Hydraulic turbine,35,22.192
+2015,data.Ontario,data.Wind power turbine,35,7.216
+2015,data.Ontario,data.Solar,35,0.903
+2015,data.Ontario,data.Other types of electricity generation,35,0
+2015,data.Manitoba,"data.Total hydro, tidal, wind, solar and other generation",46,99.251
+2015,data.Manitoba,data.Hydraulic turbine,46,96.737
+2015,data.Manitoba,data.Wind power turbine,46,2.513
+2015,data.Saskatchewan,"data.Total hydro, tidal, wind, solar and other generation",47,17.274
+2015,data.Saskatchewan,data.Hydraulic turbine,47,14.627
+2015,data.Saskatchewan,data.Wind power turbine,47,2.647
+2015,data.Saskatchewan,data.Other types of electricity generation,47,0
+2015,data.Alberta,"data.Total hydro, tidal, wind, solar and other generation",48,7.669
+2015,data.Alberta,data.Hydraulic turbine,48,2.443
+2015,data.Alberta,data.Wind power turbine,48,5.053
+2015,data.Alberta,data.Solar,48,0
+2015,data.Alberta,data.Other types of electricity generation,48,0.172
+2015,data.British Columbia,"data.Total hydro, tidal, wind, solar and other generation",59,91.774
+2015,data.British Columbia,data.Hydraulic turbine,59,90.565
+2015,data.British Columbia,data.Wind power turbine,59,1.209
+2015,data.British Columbia,data.Solar,59,0
+2015,data.British Columbia,data.Other types of electricity generation,59,0
+2015,data.Yukon,"data.Total hydro, tidal, wind, solar and other generation",60,94.299
+2015,data.Yukon,data.Hydraulic turbine,60,94.154
+2015,data.Yukon,data.Wind power turbine,60,0.145
+2015,data.Northwest Territories,"data.Total hydro, tidal, wind, solar and other generation",61,25.01
+2015,data.Northwest Territories,data.Hydraulic turbine,61,22.182
+2015,data.Northwest Territories,data.Wind power turbine,61,2.81
+2015,data.Northwest Territories,data.Solar,61,0.019
+2016,data.Canada,data.Hydraulic turbine,,59.055
+2016,data.Canada,data.Tidal power turbine,,0.003
+2016,data.Canada,data.Wind power turbine,,4.738
+2016,data.Canada,data.Solar,,0.275
+2016,data.Canada,data.Other types of electricity generation,,0.028
+2016,data.Newfoundland and Labrador,"data.Total hydro, tidal, wind, solar and other generation",10,94.802
+2016,data.Newfoundland and Labrador,data.Hydraulic turbine,10,94.348
+2016,data.Newfoundland and Labrador,data.Wind power turbine,10,0.454
+2016,data.Prince Edward Island,"data.Total hydro, tidal, wind, solar and other generation",11,98.361
+2016,data.Prince Edward Island,data.Wind power turbine,11,98.361
+2016,data.Prince Edward Island,data.Solar,11,0
+2016,data.Nova Scotia,"data.Total hydro, tidal, wind, solar and other generation",12,18.542
+2016,data.Nova Scotia,data.Hydraulic turbine,12,8.175
+2016,data.Nova Scotia,data.Tidal power turbine,12,0.189
+2016,data.Nova Scotia,data.Wind power turbine,12,10.178
+2016,data.New Brunswick,"data.Total hydro, tidal, wind, solar and other generation",13,26.453
+2016,data.New Brunswick,data.Hydraulic turbine,13,21.421
+2016,data.New Brunswick,data.Wind power turbine,13,5.032
+2016,data.New Brunswick,data.Other types of electricity generation,13,0
+2016,data.Quebec,"data.Total hydro, tidal, wind, solar and other generation",24,98.902
+2016,data.Quebec,data.Hydraulic turbine,24,94.229
+2016,data.Quebec,data.Wind power turbine,24,4.672
+2016,data.Quebec,data.Solar,24,0.001
+2016,data.Quebec,data.Other types of electricity generation,24,0
+2016,data.Ontario,"data.Total hydro, tidal, wind, solar and other generation",35,31.199
+2016,data.Ontario,data.Hydraulic turbine,35,23.226
+2016,data.Ontario,data.Wind power turbine,35,6.843
+2016,data.Ontario,data.Solar,35,1.129
+2016,data.Ontario,data.Other types of electricity generation,35,0
+2016,data.Manitoba,"data.Total hydro, tidal, wind, solar and other generation",46,99.606
+2016,data.Manitoba,data.Hydraulic turbine,46,97.044
+2016,data.Manitoba,data.Wind power turbine,46,2.562
+2016,data.Saskatchewan,"data.Total hydro, tidal, wind, solar and other generation",47,16.372
+2016,data.Saskatchewan,data.Hydraulic turbine,47,13.342
+2016,data.Saskatchewan,data.Wind power turbine,47,3.03
+2016,data.Saskatchewan,data.Other types of electricity generation,47,0
+2016,data.Alberta,"data.Total hydro, tidal, wind, solar and other generation",48,8.55
+2016,data.Alberta,data.Hydraulic turbine,48,2.502
+2016,data.Alberta,data.Wind power turbine,48,5.821
+2016,data.Alberta,data.Solar,48,0.002
+2016,data.Alberta,data.Other types of electricity generation,48,0.226
+2016,data.British Columbia,"data.Total hydro, tidal, wind, solar and other generation",59,90.474
+2016,data.British Columbia,data.Hydraulic turbine,59,88.719
+2016,data.British Columbia,data.Wind power turbine,59,1.754
+2016,data.British Columbia,data.Solar,59,0
+2016,data.British Columbia,data.Other types of electricity generation,59,0
+2016,data.Yukon,"data.Total hydro, tidal, wind, solar and other generation",60,93.953
+2016,data.Yukon,data.Hydraulic turbine,60,93.84
+2016,data.Yukon,data.Wind power turbine,60,0.114
+2016,data.Northwest Territories,"data.Total hydro, tidal, wind, solar and other generation",61,31.852
+2016,data.Northwest Territories,data.Hydraulic turbine,61,30.053
+2016,data.Northwest Territories,data.Wind power turbine,61,1.767
+2016,data.Northwest Territories,data.Solar,61,0.032
+2017,data.Canada,data.Hydraulic turbine,,60.216
+2017,data.Canada,data.Tidal power turbine,,0.001
+2017,data.Canada,data.Wind power turbine,,4.808
+2017,data.Canada,data.Solar,,0.308
+2017,data.Canada,data.Other types of electricity generation,,0.031
+2017,data.Newfoundland and Labrador,"data.Total hydro, tidal, wind, solar and other generation",10,94.423
+2017,data.Newfoundland and Labrador,data.Hydraulic turbine,10,93.943
+2017,data.Newfoundland and Labrador,data.Wind power turbine,10,0.479
+2017,data.Prince Edward Island,"data.Total hydro, tidal, wind, solar and other generation",11,98.546
+2017,data.Prince Edward Island,data.Wind power turbine,11,98.546
+2017,data.Prince Edward Island,data.Solar,11,0
+2017,data.Nova Scotia,"data.Total hydro, tidal, wind, solar and other generation",12,21.459
+2017,data.Nova Scotia,data.Hydraulic turbine,12,8.424
+2017,data.Nova Scotia,data.Tidal power turbine,12,0.059
+2017,data.Nova Scotia,data.Wind power turbine,12,12.976
+2017,data.New Brunswick,"data.Total hydro, tidal, wind, solar and other generation",13,25.093
+2017,data.New Brunswick,data.Hydraulic turbine,13,19.289
+2017,data.New Brunswick,data.Wind power turbine,13,5.804
+2017,data.New Brunswick,data.Other types of electricity generation,13,0
+2017,data.Quebec,"data.Total hydro, tidal, wind, solar and other generation",24,98.844
+2017,data.Quebec,data.Hydraulic turbine,24,94.215
+2017,data.Quebec,data.Wind power turbine,24,4.628
+2017,data.Quebec,data.Solar,24,0.001
+2017,data.Quebec,data.Other types of electricity generation,24,0
+2017,data.Ontario,"data.Total hydro, tidal, wind, solar and other generation",35,34.355
+2017,data.Ontario,data.Hydraulic turbine,35,26.197
+2017,data.Ontario,data.Wind power turbine,35,6.85
+2017,data.Ontario,data.Solar,35,1.308
+2017,data.Ontario,data.Other types of electricity generation,35,0
+2017,data.Manitoba,"data.Total hydro, tidal, wind, solar and other generation",46,99.571
+2017,data.Manitoba,data.Hydraulic turbine,46,97.072
+2017,data.Manitoba,data.Wind power turbine,46,2.499
+2017,data.Saskatchewan,"data.Total hydro, tidal, wind, solar and other generation",47,17.976
+2017,data.Saskatchewan,data.Hydraulic turbine,47,15.084
+2017,data.Saskatchewan,data.Wind power turbine,47,2.892
+2017,data.Saskatchewan,data.Other types of electricity generation,47,0
+2017,data.Alberta,"data.Total hydro, tidal, wind, solar and other generation",48,8.567
+2017,data.Alberta,data.Hydraulic turbine,48,2.56
+2017,data.Alberta,data.Wind power turbine,48,5.753
+2017,data.Alberta,data.Solar,48,0.002
+2017,data.Alberta,data.Other types of electricity generation,48,0.252
+2017,data.British Columbia,"data.Total hydro, tidal, wind, solar and other generation",59,91.485
+2017,data.British Columbia,data.Hydraulic turbine,59,89.295
+2017,data.British Columbia,data.Wind power turbine,59,2.19
+2017,data.British Columbia,data.Solar,59,0
+2017,data.British Columbia,data.Other types of electricity generation,59,0
+2017,data.Yukon,"data.Total hydro, tidal, wind, solar and other generation",60,92.444
+2017,data.Yukon,data.Hydraulic turbine,60,92.437
+2017,data.Yukon,data.Wind power turbine,60,0.007
+2017,data.Northwest Territories,"data.Total hydro, tidal, wind, solar and other generation",61,35.619
+2017,data.Northwest Territories,data.Hydraulic turbine,61,33.285
+2017,data.Northwest Territories,data.Wind power turbine,61,2.295
+2017,data.Northwest Territories,data.Solar,61,0.039
+2018,data.Canada,data.Hydraulic turbine,,59.68
+2018,data.Canada,data.Tidal power turbine,,0.003
+2018,data.Canada,data.Wind power turbine,,5.124
+2018,data.Canada,data.Solar,,0.342
+2018,data.Canada,data.Other types of electricity generation,,0.033
+2018,data.Newfoundland and Labrador,"data.Total hydro, tidal, wind, solar and other generation",10,96.339
+2018,data.Newfoundland and Labrador,data.Hydraulic turbine,10,95.868
+2018,data.Newfoundland and Labrador,data.Wind power turbine,10,0.471
+2018,data.Prince Edward Island,"data.Total hydro, tidal, wind, solar and other generation",11,98.725
+2018,data.Prince Edward Island,data.Wind power turbine,11,98.646
+2018,data.Prince Edward Island,data.Solar,11,0.079
+2018,data.Nova Scotia,"data.Total hydro, tidal, wind, solar and other generation",12,20.748
+2018,data.Nova Scotia,data.Hydraulic turbine,12,9.222
+2018,data.Nova Scotia,data.Tidal power turbine,12,0.192
+2018,data.Nova Scotia,data.Wind power turbine,12,11.334
+2018,data.New Brunswick,"data.Total hydro, tidal, wind, solar and other generation",13,24.8
+2018,data.New Brunswick,data.Hydraulic turbine,13,18.713
+2018,data.New Brunswick,data.Wind power turbine,13,6.088
+2018,data.New Brunswick,data.Other types of electricity generation,13,0
+2018,data.Quebec,"data.Total hydro, tidal, wind, solar and other generation",24,98.806
+2018,data.Quebec,data.Hydraulic turbine,24,93.81
+2018,data.Quebec,data.Wind power turbine,24,4.996
+2018,data.Quebec,data.Solar,24,0.001
+2018,data.Quebec,data.Other types of electricity generation,24,0
+2018,data.Ontario,"data.Total hydro, tidal, wind, solar and other generation",35,33.511
+2018,data.Ontario,data.Hydraulic turbine,35,24.496
+2018,data.Ontario,data.Wind power turbine,35,7.629
+2018,data.Ontario,data.Solar,35,1.384
+2018,data.Ontario,data.Other types of electricity generation,35,0.002
+2018,data.Manitoba,"data.Total hydro, tidal, wind, solar and other generation",46,99.671
+2018,data.Manitoba,data.Hydraulic turbine,46,96.918
+2018,data.Manitoba,data.Wind power turbine,46,2.753
+2018,data.Manitoba,data.Solar,46,0
+2018,data.Saskatchewan,"data.Total hydro, tidal, wind, solar and other generation",47,18.263
+2018,data.Saskatchewan,data.Hydraulic turbine,47,14.879
+2018,data.Saskatchewan,data.Wind power turbine,47,2.876
+2018,data.Saskatchewan,data.Other types of electricity generation,47,0.508
+2018,data.Alberta,"data.Total hydro, tidal, wind, solar and other generation",48,8.197
+2018,data.Alberta,data.Hydraulic turbine,48,2.624
+2018,data.Alberta,data.Wind power turbine,48,5.428
+2018,data.Alberta,data.Solar,48,0.033
+2018,data.Alberta,data.Other types of electricity generation,48,0.112
+2018,data.British Columbia,"data.Total hydro, tidal, wind, solar and other generation",59,90.836
+2018,data.British Columbia,data.Hydraulic turbine,59,88.369
+2018,data.British Columbia,data.Wind power turbine,59,2.465
+2018,data.British Columbia,data.Solar,59,0.002
+2018,data.British Columbia,data.Other types of electricity generation,59,0
+2018,data.Yukon,"data.Total hydro, tidal, wind, solar and other generation",60,87.582
+2018,data.Yukon,data.Hydraulic turbine,60,87.582
+2018,data.Yukon,data.Wind power turbine,60,0
+2018,data.Northwest Territories,"data.Total hydro, tidal, wind, solar and other generation",61,35.748
+2018,data.Northwest Territories,data.Hydraulic turbine,61,33.336
+2018,data.Northwest Territories,data.Wind power turbine,61,2.374
+2018,data.Northwest Territories,data.Solar,61,0.038
+2018,data.Northwest Territories,data.Other types of electricity generation,61,0
+2019,data.Canada,data.Hydraulic turbine,,59.445
+2019,data.Canada,data.Tidal power turbine,,0
+2019,data.Canada,data.Wind power turbine,,5.117
+2019,data.Canada,data.Solar,,0.345
+2019,data.Canada,data.Other types of electricity generation,,0.026
+2019,data.Newfoundland and Labrador,"data.Total hydro, tidal, wind, solar and other generation",10,95.986
+2019,data.Newfoundland and Labrador,data.Hydraulic turbine,10,95.559
+2019,data.Newfoundland and Labrador,data.Wind power turbine,10,0.426
+2019,data.Prince Edward Island,"data.Total hydro, tidal, wind, solar and other generation",11,99.045
+2019,data.Prince Edward Island,data.Wind power turbine,11,98.958
+2019,data.Prince Edward Island,data.Solar,11,0.087
+2019,data.Nova Scotia,"data.Total hydro, tidal, wind, solar and other generation",12,23.915
+2019,data.Nova Scotia,data.Hydraulic turbine,12,10.325
+2019,data.Nova Scotia,data.Tidal power turbine,12,0.009
+2019,data.Nova Scotia,data.Wind power turbine,12,13.581
+2019,data.New Brunswick,"data.Total hydro, tidal, wind, solar and other generation",13,28.785
+2019,data.New Brunswick,data.Hydraulic turbine,13,22.197
+2019,data.New Brunswick,data.Wind power turbine,13,6.587
+2019,data.New Brunswick,data.Other types of electricity generation,13,0
+2019,data.Quebec,"data.Total hydro, tidal, wind, solar and other generation",24,98.912
+2019,data.Quebec,data.Hydraulic turbine,24,93.701
+2019,data.Quebec,data.Wind power turbine,24,5.211
+2019,data.Quebec,data.Solar,24,0.001
+2019,data.Quebec,data.Other types of electricity generation,24,0
+2019,data.Ontario,"data.Total hydro, tidal, wind, solar and other generation",35,33.208
+2019,data.Ontario,data.Hydraulic turbine,35,24.652
+2019,data.Ontario,data.Wind power turbine,35,7.158
+2019,data.Ontario,data.Solar,35,1.395
+2019,data.Ontario,data.Other types of electricity generation,35,0.004
+2019,data.Manitoba,"data.Total hydro, tidal, wind, solar and other generation",46,99.637
+2019,data.Manitoba,data.Hydraulic turbine,46,97.033
+2019,data.Manitoba,data.Wind power turbine,46,2.604
+2019,data.Manitoba,data.Solar,46,0
+2019,data.Saskatchewan,"data.Total hydro, tidal, wind, solar and other generation",47,18.235
+2019,data.Saskatchewan,data.Hydraulic turbine,47,14.917
+2019,data.Saskatchewan,data.Wind power turbine,47,2.876
+2019,data.Saskatchewan,data.Solar,47,0
+2019,data.Saskatchewan,data.Other types of electricity generation,47,0.443
+2019,data.Alberta,"data.Total hydro, tidal, wind, solar and other generation",48,7.983
+2019,data.Alberta,data.Hydraulic turbine,48,2.684
+2019,data.Alberta,data.Wind power turbine,48,5.199
+2019,data.Alberta,data.Solar,48,0.03
+2019,data.Alberta,data.Other types of electricity generation,48,0.07
+2019,data.British Columbia,"data.Total hydro, tidal, wind, solar and other generation",59,89.162
+2019,data.British Columbia,data.Hydraulic turbine,59,86.549
+2019,data.British Columbia,data.Wind power turbine,59,2.611
+2019,data.British Columbia,data.Solar,59,0.003
+2019,data.British Columbia,data.Other types of electricity generation,59,0
+2019,data.Yukon,"data.Total hydro, tidal, wind, solar and other generation",60,80.358
+2019,data.Yukon,data.Hydraulic turbine,60,80.358
+2019,data.Yukon,data.Wind power turbine,60,0
+2019,data.Northwest Territories,"data.Total hydro, tidal, wind, solar and other generation",61,39.587
+2019,data.Northwest Territories,data.Hydraulic turbine,61,37.134
+2019,data.Northwest Territories,data.Wind power turbine,61,2.412
+2019,data.Northwest Territories,data.Solar,61,0.041
+2019,data.Northwest Territories,data.Other types of electricity generation,61,0
+2020,data.Canada,data.Hydraulic turbine,,60.376
+2020,data.Canada,data.Tidal power turbine,,0
+2020,data.Canada,data.Wind power turbine,,5.565
+2020,data.Canada,data.Solar,,0.334
+2020,data.Canada,data.Other types of electricity generation,,0.049
+2020,data.Newfoundland and Labrador,"data.Total hydro, tidal, wind, solar and other generation",10,96.226
+2020,data.Newfoundland and Labrador,data.Hydraulic turbine,10,95.782
+2020,data.Newfoundland and Labrador,data.Wind power turbine,10,0.444
+2020,data.Prince Edward Island,"data.Total hydro, tidal, wind, solar and other generation",11,99.169
+2020,data.Prince Edward Island,data.Wind power turbine,11,99.083
+2020,data.Prince Edward Island,data.Solar,11,0.086
+2020,data.Nova Scotia,"data.Total hydro, tidal, wind, solar and other generation",12,22.096
+2020,data.Nova Scotia,data.Hydraulic turbine,12,7.871
+2020,data.Nova Scotia,data.Tidal power turbine,12,0
+2020,data.Nova Scotia,data.Wind power turbine,12,14.225
+2020,data.New Brunswick,"data.Total hydro, tidal, wind, solar and other generation",13,28.763
+2020,data.New Brunswick,data.Hydraulic turbine,13,21.927
+2020,data.New Brunswick,data.Wind power turbine,13,6.836
+2020,data.New Brunswick,data.Other types of electricity generation,13,0
+2020,data.Quebec,"data.Total hydro, tidal, wind, solar and other generation",24,98.954
+2020,data.Quebec,data.Hydraulic turbine,24,93.599
+2020,data.Quebec,data.Wind power turbine,24,5.355
+2020,data.Quebec,data.Solar,24,0.001
+2020,data.Quebec,data.Other types of electricity generation,24,0
+2020,data.Ontario,"data.Total hydro, tidal, wind, solar and other generation",35,34.524
+2020,data.Ontario,data.Hydraulic turbine,35,25.548
+2020,data.Ontario,data.Wind power turbine,35,7.602
+2020,data.Ontario,data.Solar,35,1.367
+2020,data.Ontario,data.Other types of electricity generation,35,0.007
+2020,data.Manitoba,"data.Total hydro, tidal, wind, solar and other generation",46,99.652
+2020,data.Manitoba,data.Hydraulic turbine,46,97.079
+2020,data.Manitoba,data.Wind power turbine,46,2.573
+2020,data.Manitoba,data.Solar,46,0
+2020,data.Saskatchewan,"data.Total hydro, tidal, wind, solar and other generation",47,21.546
+2020,data.Saskatchewan,data.Hydraulic turbine,47,18.15
+2020,data.Saskatchewan,data.Wind power turbine,47,3.048
+2020,data.Saskatchewan,data.Solar,47,0.001
+2020,data.Saskatchewan,data.Other types of electricity generation,47,0.347
+2020,data.Alberta,"data.Total hydro, tidal, wind, solar and other generation",48,10.973
+2020,data.Alberta,data.Hydraulic turbine,48,2.833
+2020,data.Alberta,data.Wind power turbine,48,7.824
+2020,data.Alberta,data.Solar,48,0.035
+2020,data.Alberta,data.Other types of electricity generation,48,0.282
+2020,data.British Columbia,"data.Total hydro, tidal, wind, solar and other generation",59,91.685
+2020,data.British Columbia,data.Hydraulic turbine,59,89.135
+2020,data.British Columbia,data.Wind power turbine,59,2.546
+2020,data.British Columbia,data.Solar,59,0.004
+2020,data.British Columbia,data.Other types of electricity generation,59,0
+2020,data.Yukon,"data.Total hydro, tidal, wind, solar and other generation",60,82.804
+2020,data.Yukon,data.Hydraulic turbine,60,82.804
+2020,data.Yukon,data.Wind power turbine,60,0
+2020,data.Northwest Territories,"data.Total hydro, tidal, wind, solar and other generation",61,40.966
+2020,data.Northwest Territories,data.Hydraulic turbine,61,38.102
+2020,data.Northwest Territories,data.Wind power turbine,61,2.821
+2020,data.Northwest Territories,data.Solar,61,0.044
+2020,data.Northwest Territories,data.Other types of electricity generation,61,0
