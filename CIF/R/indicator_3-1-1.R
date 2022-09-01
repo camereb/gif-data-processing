@@ -24,6 +24,8 @@ fruits_veg <-
          Characteristics == "Percent") %>%
   select(REF_DATE, GEO, `Age group`, Sex, VALUE) %>%
   rename(Year = REF_DATE, Geography = GEO, Value = VALUE) %>%
+  mutate(Geography = recode(Geography,
+                            "Canada (excluding territories)" = "Canada")) %>% 
   left_join(geocodes, by = "Geography") %>%
   relocate(GeoCode, .before = Value)
 
@@ -32,16 +34,16 @@ fruits_veg <-
 
 total <- 
   fruits_veg %>%
-  filter(Geography == "Canada (excluding territories)", `Age group` == "Total, 12 years and over", 
+  filter(Geography == "Canada", `Age group` == "Total, 12 years and over", 
          Sex == "Both sexes") %>%
-  mutate_at(2:(ncol(.)-2), ~ "") 
+  mutate_at(2:(ncol(.)-2), ~ "")
 
 
 #Create the non - aggregate line
 
 fruits_veggies <- 
   fruits_veg %>%
-  filter(!(Geography == "Canada (excluding territories)"& `Age group` == "Total, 12 years and over"&
+  filter(!(Geography == "Canada"& `Age group` == "Total, 12 years and over"&
            Sex == "Both sexes")) %>%
   mutate_at(2:(ncol(.)-2), ~ paste0("data.", .x))
 

@@ -68,12 +68,17 @@ total_line <-
          ) %>% 
   mutate_at(2:(ncol(.)-2), ~ "")
 
+
+
 non_total_line <- 
   renewable %>% 
   filter(!(Geography == "Canada" &
              `Type of electricity generation` == "Total hydro, tidal, wind, solar and other generation" 
              )) %>% 
   mutate_at(2:(ncol(.)-2), ~ paste0("data.", .x))
+
+
+
 
 final_data <- 
   bind_rows(total_line, non_total_line)

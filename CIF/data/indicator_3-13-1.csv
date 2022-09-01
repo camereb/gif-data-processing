@@ -1,10 +1,11 @@
-Year,data.data.~,data.data.names(final_data)[2:(ncol(final_data) - 2)],data.data.~,GeoCode,Value
+Year,data.Geography,data.Age group,data.Sex,GeoCode,Value
 2015,"","","",,17.7
 2016,"","","",,16.9
 2017,"","","",,16.2
 2018,"","","",,15.8
 2019,"","","",,14.8
 2020,"","","",,12.9
+2021,"","","",,11.8
 2015,data.Canada,"data.Total, 12 years and over",data.Males,,20.4
 2015,data.Canada,"data.Total, 12 years and over",data.Females,,15
 2015,data.Canada,data.12 to 17 years,data.Both sexes,,4.1
@@ -1187,3 +1188,200 @@ Year,data.data.~,data.data.names(final_data)[2:(ncol(final_data) - 2)],data.data
 2020,data.British Columbia,data.65 years and over,data.Both sexes,59,6
 2020,data.British Columbia,data.65 years and over,data.Males,59,7.1
 2020,data.British Columbia,data.65 years and over,data.Females,59,5.1
+2021,data.Canada,"data.Total, 12 years and over",data.Males,,13.3
+2021,data.Canada,"data.Total, 12 years and over",data.Females,,10.3
+2021,data.Canada,data.12 to 17 years,data.Both sexes,,1.1
+2021,data.Canada,data.12 to 17 years,data.Males,,1.3
+2021,data.Canada,data.12 to 17 years,data.Females,,1
+2021,data.Canada,data.18 to 34 years,data.Both sexes,,11.4
+2021,data.Canada,data.18 to 34 years,data.Males,,13.2
+2021,data.Canada,data.18 to 34 years,data.Females,,9.5
+2021,data.Canada,data.35 to 49 years,data.Both sexes,,14
+2021,data.Canada,data.35 to 49 years,data.Males,,16.2
+2021,data.Canada,data.35 to 49 years,data.Females,,11.9
+2021,data.Canada,data.50 to 64 years,data.Both sexes,,16.3
+2021,data.Canada,data.50 to 64 years,data.Males,,18.1
+2021,data.Canada,data.50 to 64 years,data.Females,,14.4
+2021,data.Canada,data.65 years and over,data.Both sexes,,8.7
+2021,data.Canada,data.65 years and over,data.Males,,9.1
+2021,data.Canada,data.65 years and over,data.Females,,8.3
+2021,data.Newfoundland and Labrador,"data.Total, 12 years and over",data.Both sexes,10,13.4
+2021,data.Newfoundland and Labrador,"data.Total, 12 years and over",data.Males,10,14.3
+2021,data.Newfoundland and Labrador,"data.Total, 12 years and over",data.Females,10,12.6
+2021,data.Newfoundland and Labrador,data.12 to 17 years,data.Both sexes,10,
+2021,data.Newfoundland and Labrador,data.12 to 17 years,data.Males,10,
+2021,data.Newfoundland and Labrador,data.12 to 17 years,data.Females,10,
+2021,data.Newfoundland and Labrador,data.18 to 34 years,data.Both sexes,10,16
+2021,data.Newfoundland and Labrador,data.18 to 34 years,data.Males,10,16.7
+2021,data.Newfoundland and Labrador,data.18 to 34 years,data.Females,10,15.2
+2021,data.Newfoundland and Labrador,data.35 to 49 years,data.Both sexes,10,17.5
+2021,data.Newfoundland and Labrador,data.35 to 49 years,data.Males,10,18.9
+2021,data.Newfoundland and Labrador,data.35 to 49 years,data.Females,10,16.2
+2021,data.Newfoundland and Labrador,data.50 to 64 years,data.Both sexes,10,13.8
+2021,data.Newfoundland and Labrador,data.50 to 64 years,data.Males,10,14.7
+2021,data.Newfoundland and Labrador,data.50 to 64 years,data.Females,10,13
+2021,data.Newfoundland and Labrador,data.65 years and over,data.Both sexes,10,10.6
+2021,data.Newfoundland and Labrador,data.65 years and over,data.Males,10,11
+2021,data.Newfoundland and Labrador,data.65 years and over,data.Females,10,10.2
+2021,data.Prince Edward Island,"data.Total, 12 years and over",data.Both sexes,11,14.2
+2021,data.Prince Edward Island,"data.Total, 12 years and over",data.Males,11,19.1
+2021,data.Prince Edward Island,"data.Total, 12 years and over",data.Females,11,9.4
+2021,data.Prince Edward Island,data.12 to 17 years,data.Both sexes,11,
+2021,data.Prince Edward Island,data.12 to 17 years,data.Males,11,
+2021,data.Prince Edward Island,data.12 to 17 years,data.Females,11,
+2021,data.Prince Edward Island,data.18 to 34 years,data.Both sexes,11,11.7
+2021,data.Prince Edward Island,data.18 to 34 years,data.Males,11,16.6
+2021,data.Prince Edward Island,data.18 to 34 years,data.Females,11,
+2021,data.Prince Edward Island,data.35 to 49 years,data.Both sexes,11,16.1
+2021,data.Prince Edward Island,data.35 to 49 years,data.Males,11,23.2
+2021,data.Prince Edward Island,data.35 to 49 years,data.Females,11,9.4
+2021,data.Prince Edward Island,data.50 to 64 years,data.Both sexes,11,18.9
+2021,data.Prince Edward Island,data.50 to 64 years,data.Males,11,23.4
+2021,data.Prince Edward Island,data.50 to 64 years,data.Females,11,14.6
+2021,data.Prince Edward Island,data.65 years and over,data.Both sexes,11,14.8
+2021,data.Prince Edward Island,data.65 years and over,data.Males,11,20.9
+2021,data.Prince Edward Island,data.65 years and over,data.Females,11,9.6
+2021,data.Nova Scotia,"data.Total, 12 years and over",data.Both sexes,12,13.5
+2021,data.Nova Scotia,"data.Total, 12 years and over",data.Males,12,14.7
+2021,data.Nova Scotia,"data.Total, 12 years and over",data.Females,12,12.3
+2021,data.Nova Scotia,data.12 to 17 years,data.Both sexes,12,
+2021,data.Nova Scotia,data.12 to 17 years,data.Males,12,
+2021,data.Nova Scotia,data.12 to 17 years,data.Females,12,
+2021,data.Nova Scotia,data.18 to 34 years,data.Both sexes,12,11.8
+2021,data.Nova Scotia,data.18 to 34 years,data.Males,12,16.3
+2021,data.Nova Scotia,data.18 to 34 years,data.Females,12,7.2
+2021,data.Nova Scotia,data.35 to 49 years,data.Both sexes,12,15.4
+2021,data.Nova Scotia,data.35 to 49 years,data.Males,12,12
+2021,data.Nova Scotia,data.35 to 49 years,data.Females,12,18.4
+2021,data.Nova Scotia,data.50 to 64 years,data.Both sexes,12,21.5
+2021,data.Nova Scotia,data.50 to 64 years,data.Males,12,24.5
+2021,data.Nova Scotia,data.50 to 64 years,data.Females,12,18.6
+2021,data.Nova Scotia,data.65 years and over,data.Both sexes,12,8.2
+2021,data.Nova Scotia,data.65 years and over,data.Males,12,9.1
+2021,data.Nova Scotia,data.65 years and over,data.Females,12,7.4
+2021,data.New Brunswick,"data.Total, 12 years and over",data.Both sexes,13,12.4
+2021,data.New Brunswick,"data.Total, 12 years and over",data.Males,13,12.6
+2021,data.New Brunswick,"data.Total, 12 years and over",data.Females,13,12.1
+2021,data.New Brunswick,data.12 to 17 years,data.Both sexes,13,
+2021,data.New Brunswick,data.12 to 17 years,data.Males,13,
+2021,data.New Brunswick,data.12 to 17 years,data.Females,13,
+2021,data.New Brunswick,data.18 to 34 years,data.Both sexes,13,13
+2021,data.New Brunswick,data.18 to 34 years,data.Males,13,16.2
+2021,data.New Brunswick,data.18 to 34 years,data.Females,13,9.7
+2021,data.New Brunswick,data.35 to 49 years,data.Both sexes,13,18.1
+2021,data.New Brunswick,data.35 to 49 years,data.Males,13,19.6
+2021,data.New Brunswick,data.35 to 49 years,data.Females,13,16.6
+2021,data.New Brunswick,data.50 to 64 years,data.Both sexes,13,13.6
+2021,data.New Brunswick,data.50 to 64 years,data.Males,13,12.4
+2021,data.New Brunswick,data.50 to 64 years,data.Females,13,14.8
+2021,data.New Brunswick,data.65 years and over,data.Both sexes,13,8.6
+2021,data.New Brunswick,data.65 years and over,data.Males,13,6.9
+2021,data.New Brunswick,data.65 years and over,data.Females,13,10.1
+2021,data.Quebec,"data.Total, 12 years and over",data.Both sexes,24,13.3
+2021,data.Quebec,"data.Total, 12 years and over",data.Males,24,13.9
+2021,data.Quebec,"data.Total, 12 years and over",data.Females,24,12.6
+2021,data.Quebec,data.12 to 17 years,data.Both sexes,24,
+2021,data.Quebec,data.12 to 17 years,data.Males,24,
+2021,data.Quebec,data.12 to 17 years,data.Females,24,
+2021,data.Quebec,data.18 to 34 years,data.Both sexes,24,13.2
+2021,data.Quebec,data.18 to 34 years,data.Males,24,14.4
+2021,data.Quebec,data.18 to 34 years,data.Females,24,11.8
+2021,data.Quebec,data.35 to 49 years,data.Both sexes,24,15.1
+2021,data.Quebec,data.35 to 49 years,data.Males,24,15.3
+2021,data.Quebec,data.35 to 49 years,data.Females,24,14.9
+2021,data.Quebec,data.50 to 64 years,data.Both sexes,24,19.6
+2021,data.Quebec,data.50 to 64 years,data.Males,24,20.8
+2021,data.Quebec,data.50 to 64 years,data.Females,24,18.4
+2021,data.Quebec,data.65 years and over,data.Both sexes,24,8.3
+2021,data.Quebec,data.65 years and over,data.Males,24,7.7
+2021,data.Quebec,data.65 years and over,data.Females,24,8.9
+2021,data.Ontario,"data.Total, 12 years and over",data.Both sexes,35,11.6
+2021,data.Ontario,"data.Total, 12 years and over",data.Males,35,13.5
+2021,data.Ontario,"data.Total, 12 years and over",data.Females,35,9.7
+2021,data.Ontario,data.12 to 17 years,data.Both sexes,35,0.6
+2021,data.Ontario,data.12 to 17 years,data.Males,35,
+2021,data.Ontario,data.12 to 17 years,data.Females,35,
+2021,data.Ontario,data.18 to 34 years,data.Both sexes,35,11.3
+2021,data.Ontario,data.18 to 34 years,data.Males,35,12.6
+2021,data.Ontario,data.18 to 34 years,data.Females,35,9.9
+2021,data.Ontario,data.35 to 49 years,data.Both sexes,35,14.2
+2021,data.Ontario,data.35 to 49 years,data.Males,35,17.8
+2021,data.Ontario,data.35 to 49 years,data.Females,35,10.6
+2021,data.Ontario,data.50 to 64 years,data.Both sexes,35,15.4
+2021,data.Ontario,data.50 to 64 years,data.Males,35,18.4
+2021,data.Ontario,data.50 to 64 years,data.Females,35,12.5
+2021,data.Ontario,data.65 years and over,data.Both sexes,35,8.8
+2021,data.Ontario,data.65 years and over,data.Males,35,9.3
+2021,data.Ontario,data.65 years and over,data.Females,35,8.4
+2021,data.Manitoba,"data.Total, 12 years and over",data.Both sexes,46,11.1
+2021,data.Manitoba,"data.Total, 12 years and over",data.Males,46,11.2
+2021,data.Manitoba,"data.Total, 12 years and over",data.Females,46,11
+2021,data.Manitoba,data.12 to 17 years,data.Both sexes,46,
+2021,data.Manitoba,data.12 to 17 years,data.Males,46,
+2021,data.Manitoba,data.12 to 17 years,data.Females,46,
+2021,data.Manitoba,data.18 to 34 years,data.Both sexes,46,11.8
+2021,data.Manitoba,data.18 to 34 years,data.Males,46,11.9
+2021,data.Manitoba,data.18 to 34 years,data.Females,46,11.7
+2021,data.Manitoba,data.35 to 49 years,data.Both sexes,46,11
+2021,data.Manitoba,data.35 to 49 years,data.Males,46,10.8
+2021,data.Manitoba,data.35 to 49 years,data.Females,46,11.2
+2021,data.Manitoba,data.50 to 64 years,data.Both sexes,46,16.4
+2021,data.Manitoba,data.50 to 64 years,data.Males,46,16.7
+2021,data.Manitoba,data.50 to 64 years,data.Females,46,16.1
+2021,data.Manitoba,data.65 years and over,data.Both sexes,46,8.7
+2021,data.Manitoba,data.65 years and over,data.Males,46,9.1
+2021,data.Manitoba,data.65 years and over,data.Females,46,8.4
+2021,data.Saskatchewan,"data.Total, 12 years and over",data.Both sexes,47,12.6
+2021,data.Saskatchewan,"data.Total, 12 years and over",data.Males,47,14.4
+2021,data.Saskatchewan,"data.Total, 12 years and over",data.Females,47,10.8
+2021,data.Saskatchewan,data.12 to 17 years,data.Both sexes,47,
+2021,data.Saskatchewan,data.12 to 17 years,data.Males,47,
+2021,data.Saskatchewan,data.12 to 17 years,data.Females,47,
+2021,data.Saskatchewan,data.18 to 34 years,data.Both sexes,47,10.5
+2021,data.Saskatchewan,data.18 to 34 years,data.Males,47,14.6
+2021,data.Saskatchewan,data.18 to 34 years,data.Females,47,6.2
+2021,data.Saskatchewan,data.35 to 49 years,data.Both sexes,47,16
+2021,data.Saskatchewan,data.35 to 49 years,data.Males,47,14.6
+2021,data.Saskatchewan,data.35 to 49 years,data.Females,47,17.5
+2021,data.Saskatchewan,data.50 to 64 years,data.Both sexes,47,16.8
+2021,data.Saskatchewan,data.50 to 64 years,data.Males,47,19.5
+2021,data.Saskatchewan,data.50 to 64 years,data.Females,47,14.1
+2021,data.Saskatchewan,data.65 years and over,data.Both sexes,47,10.3
+2021,data.Saskatchewan,data.65 years and over,data.Males,47,12.2
+2021,data.Saskatchewan,data.65 years and over,data.Females,47,8.6
+2021,data.Alberta,"data.Total, 12 years and over",data.Both sexes,48,11.5
+2021,data.Alberta,"data.Total, 12 years and over",data.Males,48,13.6
+2021,data.Alberta,"data.Total, 12 years and over",data.Females,48,9.5
+2021,data.Alberta,data.12 to 17 years,data.Both sexes,48,
+2021,data.Alberta,data.12 to 17 years,data.Males,48,
+2021,data.Alberta,data.12 to 17 years,data.Females,48,
+2021,data.Alberta,data.18 to 34 years,data.Both sexes,48,11.9
+2021,data.Alberta,data.18 to 34 years,data.Males,48,15.2
+2021,data.Alberta,data.18 to 34 years,data.Females,48,8.4
+2021,data.Alberta,data.35 to 49 years,data.Both sexes,48,12.1
+2021,data.Alberta,data.35 to 49 years,data.Males,48,15.1
+2021,data.Alberta,data.35 to 49 years,data.Females,48,9.1
+2021,data.Alberta,data.50 to 64 years,data.Both sexes,48,16.4
+2021,data.Alberta,data.50 to 64 years,data.Males,48,17.2
+2021,data.Alberta,data.50 to 64 years,data.Females,48,15.6
+2021,data.Alberta,data.65 years and over,data.Both sexes,48,9.5
+2021,data.Alberta,data.65 years and over,data.Males,48,10.4
+2021,data.Alberta,data.65 years and over,data.Females,48,8.7
+2021,data.British Columbia,"data.Total, 12 years and over",data.Both sexes,59,9.6
+2021,data.British Columbia,"data.Total, 12 years and over",data.Males,59,11.5
+2021,data.British Columbia,"data.Total, 12 years and over",data.Females,59,7.8
+2021,data.British Columbia,data.12 to 17 years,data.Both sexes,59,
+2021,data.British Columbia,data.12 to 17 years,data.Males,59,
+2021,data.British Columbia,data.12 to 17 years,data.Females,59,
+2021,data.British Columbia,data.18 to 34 years,data.Both sexes,59,8.2
+2021,data.British Columbia,data.18 to 34 years,data.Males,59,10.2
+2021,data.British Columbia,data.18 to 34 years,data.Females,59,6
+2021,data.British Columbia,data.35 to 49 years,data.Both sexes,59,12.8
+2021,data.British Columbia,data.35 to 49 years,data.Males,59,16.1
+2021,data.British Columbia,data.35 to 49 years,data.Females,59,9.7
+2021,data.British Columbia,data.50 to 64 years,data.Both sexes,59,12.3
+2021,data.British Columbia,data.50 to 64 years,data.Males,59,13.4
+2021,data.British Columbia,data.50 to 64 years,data.Females,59,11.3
+2021,data.British Columbia,data.65 years and over,data.Both sexes,59,7.9
+2021,data.British Columbia,data.65 years and over,data.Males,59,9.6
+2021,data.British Columbia,data.65 years and over,data.Females,59,6.3

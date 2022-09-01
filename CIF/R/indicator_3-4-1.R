@@ -23,6 +23,8 @@ alcohol_use <-
   filter(Characteristics == "Percent", Indicators == "Heavy drinking") %>%
   select(REF_DATE, GEO, `Age group`, Sex, VALUE) %>%
   rename(Year = REF_DATE, Geography = GEO, Value = VALUE) %>%
+  mutate(Geography = recode(Geography, 
+                            "Canada (excluding territories)" = "Canada")) %>% 
   left_join(geocodes, by = "Geography") %>%
   relocate(GeoCode, .before = Value)
 
@@ -32,7 +34,7 @@ alcohol_use <-
 
 total <- 
   alcohol_use %>%
-  filter(Geography == "Canada (excluding territories)", `Age group` == "Total, 12 years and over",
+  filter(Geography == "Canada", `Age group` == "Total, 12 years and over",
          Sex == "Both sexes") %>%
   mutate_at(2:(ncol(.)-2), ~ "") 
 
@@ -41,7 +43,7 @@ total <-
 
 non_total_line <- 
   alcohol_use %>%
-  filter(!(Geography == "Canada (excluding territories)" & `Age group` == "Total, 12 years and over" &
+  filter(!(Geography == "Canada" & `Age group` == "Total, 12 years and over" &
             Sex == "Both sexes")) %>%
   mutate_at(2:(ncol(.)-2), ~ paste0("data.", .x))
 
@@ -52,7 +54,6 @@ names(final_data)[2:(ncol(final_data)-2)] <- paste0("data.",names(final_data)[2:
 
 write_csv(final_data, "CIF/data/indicator_3-4-1.csv", na = "")
  
-
 
 
 

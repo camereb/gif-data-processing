@@ -53,6 +53,8 @@ causes_of_death <-
          VALUE) %>% 
   rename(Year = REF_DATE, Geography = GEO, Value = VALUE) %>% 
   mutate(Geography = gsub(", place of residence", "", Geography)) %>% 
+  mutate(`Leading causes of death (ICD-10)` = 
+           str_remove(`Leading causes of death (ICD-10)`, " \\[.*\\]")) %>% 
   mutate(`Age at time of death`= (gsub("Age at time of death, ","", `Age at time of death`))) %>% 
   mutate(`Age at time of death` = recode(`Age at time of death`, 
                                            "all ages"= "All ages")) %>% 
@@ -66,7 +68,7 @@ names(causes_of_death)[2:(ncol(causes_of_death)-1)] <-
 write_csv(causes_of_death, "CIF/data/indicator_3-10-1.csv", na = "")
   
   
-  
+
   
   
   
