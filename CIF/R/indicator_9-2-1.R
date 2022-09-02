@@ -14,6 +14,12 @@ library(readr)
 Raw_data <- get_cansim("27-10-0359-01", factors = FALSE)
 
 
+
+# load geocode
+geocodes <- read_csv("geocodes.csv")
+
+
+
 #Extract geographies
 
 selected_geographies <- c("Canada",
