@@ -13,7 +13,10 @@ library(cansim)
 # 
 # ignore[ignore == test_colnames]
 
-
+geocodes <- data.frame(
+  GeoCode = c('10', '11', '12', '13', '24', '35', '46', '47', '48', '59', '60', '61', '62'),
+  Geography = c('Newfoundland and Labrador', 'Prince Edward Island', 'Nova Scotia', 'New Brunswick', 'Quebec', 'Ontario', 'Manitoba', 'Saskatchewan', 'Alberta', 'British Columbia', 'Yukon', 'Northwest Territories', 'Nunavut')
+)
 
 get_current_ref_date <- function(table_no) {
   
@@ -25,15 +28,21 @@ get_current_ref_date <- function(table_no) {
   
 }
 
-check_data_update <- function(data, current_year) {
+check_data_update <- function(data, table_no) {
   
-  data_max_year <- max(data$REF_DATE)
+  # Most recent year available in CODR table
+  tbl_max_ref_date <- get_current_ref_date(table_no)
   
-  return(ifelse(max_year < current_year, TRUE, FALSE))
+  # Most recent year available in data hub
+  data_max_year <- max(data$Year)
+  
+  # Return TRUE if data update is needed
+  return(ifelse(data_max_year < tbl_max_ref_date, TRUE, FALSE))
   
 }
 
-table_no <- "37-10-0170-01"
-current_year <- get_current_ref_date(table_no)
-data <- get_cansim(table_no, factors = FALSE)
-check_data_update(data, current_year)
+# table_no <- "13-10-0834-01"
+# data <- readr::read_csv("CIF/data/indicator_2-1-1.csv")
+# check_data_update(data, table_no)
+
+
