@@ -20,8 +20,13 @@ geocodes <- data.frame(
 
 get_current_ref_date <- function(table_no) {
   
+  # Retreive CODR table metadata
   tbl_md <- cansim::get_cansim_cube_metadata(table_no)
+  
+  # Get the table end date
   current_date <- tbl_md$cubeEndDate
+  
+  # Extract the year from the end date
   current_year <- lubridate::year(current_date)
   
   return(current_year)

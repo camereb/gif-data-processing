@@ -31,4 +31,4 @@ new_data <-
   rename(data.Geography = Geography)
 
 
-write_csv(new_data, "gif-data-processing/CIF/data/indicator_12-1-1.csv")
+write_csv(new_data, "gif-data-processing/CIF/tests/data/indicator_12-1-1.csv")
