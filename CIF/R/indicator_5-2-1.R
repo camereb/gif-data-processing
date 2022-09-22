@@ -101,8 +101,7 @@ cabinet <-
 
 
 
-View(Raw_data2)
-distinct(Raw_data2, `National Occupational Classification (NOC)`)
+
 
 selected_job <- c("Management occupations [0]",
                   "Senior management occupations [00]",
