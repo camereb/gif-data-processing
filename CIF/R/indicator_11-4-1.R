@@ -84,9 +84,12 @@ public_transit <-
          `Demographic, geodemographic and commuting` == "Percentage of population near public transit stop"
          ) %>% 
   select(Year = REF_DATE, 
-         data.Geography = GEO,
+         Geography = GEO,
          Value = VALUE) %>% 
-  mutate(data.Geography = paste0("data.", data.Geography))
+  left_join(geocodes, by = "Geography") %>% 
+  relocate(GeoCode, .before = Value) %>% 
+  mutate(Geography = paste0("data.", Geography)) %>% 
+  rename(data.Geography = Geography)
 
 
 
