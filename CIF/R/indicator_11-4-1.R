@@ -6,9 +6,10 @@
 
 #load libraries 
 library(dplyr)
+library(readr)
 library(tidyr)
 library(cansim)
-library(stringr)
+
 
 
 
@@ -80,12 +81,13 @@ geographies <- c(
 public_transit <- 
   Raw_data %>% 
   filter(GEO %in% geographies, 
-         `Demographic, geodemographic and commuting` == "Percentage of population near public transit stop",
+         `Demographic, geodemographic and commuting` == "Percentage of population near public transit stop"
          ) %>% 
   select(Year = REF_DATE, 
          data.Geography = GEO,
          Value = VALUE) %>% 
   mutate(data.Geography = paste0("data.", data.Geography))
+
 
 
 write_csv(public_transit, "CIF/data/indicator_11-4-1.csv", na = "")

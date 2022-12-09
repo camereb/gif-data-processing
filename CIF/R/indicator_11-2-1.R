@@ -8,7 +8,7 @@
 library(dplyr)
 library(tidyr)
 library(cansim)
-library(stringr)
+library(readr)
 
 
 
