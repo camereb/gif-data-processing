@@ -42,5 +42,5 @@ low_income <-
 # write data
 write_csv(
   low_income,
-  here::here("gif-data-processing", "data", "indicator_1-2-1.csv")
+  "GIF/data/indicator_1-2-1.csv"
 )

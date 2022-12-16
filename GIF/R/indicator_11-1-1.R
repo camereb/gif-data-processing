@@ -1,38 +1,46 @@
-# Indicator 11.1.1 ------------------------------------------------------
-# 11.1.1.PR Proportion of urban population in core housing need
+# Large urban population centres have a population of 100,000 or more.
 
 library(cansim)
-library(here)
 library(dplyr)
-# library(stringr)
-library(readr)
 
-housing_need <- get_cansim("46-10-0046-01", factors = FALSE)
+core_housing <- get_cansim("46-10-0065-01", factors = FALSE)
 
-#geocodes <- read_csv("gif-data-processing/geocodes.csv")
-
-names(housing_need)
-
-core_housing_need <- 
-  housing_need %>%
+core_housing <- 
+  core_housing %>%
   filter(
-    `Living with housing problems` == "Living in core housing need",
-    `Statistics` == "Percentage of households"
-  ) %>%
+    `Core housing need statistics` == "Percentage of persons in core housing need",
+    str_detect(GEO, "urban")
+  ) %>% 
   select(
     Year = REF_DATE,
-    `Selected housing vulnerable populations`,
+    Geography = GEO,
+    Tenure = `Tenure including first-time homebuyer and social and affordable housing status`,
     Value = VALUE
+  ) %>% 
+  mutate(
+    Geography = str_remove(Geography, "Large urban population centres, ")
   )
 
-data_final <- 
+total_line <- 
+  core_housing %>% 
+  filter(
+    Geography == "Total, large urban population centres",
+    Tenure == "Total, tenure"
+  ) %>% 
+  mutate(across(2:3, ~ ""))
+
+data_final <-
   bind_rows(
-    core_housing_need %>%
-      filter(`Selected housing vulnerable populations` == "All households") %>%
-      mutate(`Selected housing vulnerable populations` = ""),
-    core_housing_need %>%
-      filter(`Selected housing vulnerable populations` != "All households")
+    total_line,
+    core_housing %>%
+      filter(!(
+        Geography == "Total, large urban population centres" &
+          Tenure == "Total, tenure"
+      ))
+  )
+
+write_csv(
+  data_final,
+  "GIF/data/indicator_11-1-1.csv",
+  na = ""
 )
-
-write_csv(data_final, here("gif-data-processing", "data", "indicator_11-1-1.csv"))
-
