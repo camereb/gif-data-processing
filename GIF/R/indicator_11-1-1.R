@@ -5,6 +5,8 @@ library(dplyr)
 
 core_housing <- get_cansim("46-10-0065-01", factors = FALSE)
 
+geocodes <- read_csv("geocodes.csv")
+
 core_housing <- 
   core_housing %>%
   filter(
@@ -19,7 +21,9 @@ core_housing <-
   ) %>% 
   mutate(
     Geography = str_remove(Geography, "Large urban population centres, ")
-  )
+  ) %>% 
+  left_join(geocodes, by = "Geography") %>% 
+  relocate(GeoCode, .before = "Value")
 
 total_line <- 
   core_housing %>% 

@@ -9,7 +9,7 @@ library(readr)
 
 low_income_data <- get_cansim("11-10-0135-01", factors = FALSE)
 
-geocodes <- read_csv("gif-data-processing/geocodes.csv")
+geocodes <- read_csv("geocodes.csv")
 
 persons_in_low_income <- 
   low_income_data %>%
@@ -32,13 +32,6 @@ persons_in_low_income <-
   mutate(
     GeoCode = ifelse(`Persons in low income` == "All persons", GeoCode, NA)
     )
-  # mutate(
-  #   Sex = case_when(
-  #     str_detect(`Persons in low income`, "Female") ~ "Female",
-  #     str_detect(`Persons in low income`, "Male") ~ "Male",
-  #     TRUE ~ NA_character_
-  #   )
-  # )
 
 data_final <- 
   bind_rows(
@@ -49,4 +42,4 @@ data_final <-
       filter(!(Geography == "Canada" & `Persons in low income` == "All persons"))
   )
 
-write_csv(data_final, here("gif-data-processing", "data", "indicator_10-2-1.csv"), na = "")
+write_csv(data_final, here("GIF", "data", "indicator_10-2-1.csv"), na = "")

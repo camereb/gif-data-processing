@@ -7,23 +7,28 @@ library(dplyr)
 library(stringr)
 library(readr)
 
-gdp <- get_cansim("36-10-0221-01", factors = FALSE)
+gdp <- get_cansim("36-10-0103-01", factors = FALSE)
 
-geocodes <- read_csv("gif-data-processing/geocodes.csv")
+geocodes <- read_csv("geocodes.csv")
 
 labour_share <- 
   gdp %>%
+  tidyr::separate(REF_DATE, into = c("Year", "Month")) %>% 
   filter(
-   REF_DATE >= 2000,
-    Estimates %in% c("Compensation of employees", "Gross domestic product at market prices")
-    # `Seasonal adjustment` == "Seasonally adjusted at annual rates"
-    ) %>% 
+    Year >= 2015,
+    `Seasonal adjustment` == "Seasonally adjusted at annual rates",
+    Estimates %in% c("Compensation of employees", "Gross domestic product at market prices"),
+    !GEO %in% c("Outside Canada", "Northwest Territories including Nunavut")
+  ) %>% 
   select(
-    Year = REF_DATE,
+    Year,
+    Month,
     Geography = GEO,
     Estimates,
     Value = VALUE
   ) %>%
+  group_by(Year, Geography, Estimates) %>% 
+  summarise(Value = sum(Value), .groups = "drop") %>% 
   tidyr::pivot_wider(
     names_from = Estimates,
     values_from = Value
@@ -35,6 +40,7 @@ labour_share <-
   left_join(geocodes) %>%
   relocate(GeoCode, .before = "Value")
 
+
 data_final <- 
   bind_rows(
     labour_share %>%
@@ -44,4 +50,4 @@ data_final <-
       filter(Geography != "Canada")
   )
 
-write_csv(data_final, here("gif-data-processing", "data", "indicator_10-4-1.csv"), na = "")  
+write_csv(data_final, here("GIF", "data", "indicator_10-4-1.csv"), na = "")  

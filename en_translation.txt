@@ -1,0 +1,7 @@
+Total, tenure: Total, tenure
+Owner: Owner
+Owner who is a first-time homebuyer: Owner who is a first-time homebuyer
+Owner who is not a first-time homebuyer: Owner who is not a first-time homebuyer
+Renter: Renter
+Renter not in social and affordable housing: Renter not in social and affordable housing
+Renter in social and affordable housing: Renter in social and affordable housing
