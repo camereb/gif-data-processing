@@ -55,7 +55,7 @@ crime <-
          Index = Statistics,
          Value = VALUE) %>% 
   mutate(Geography = 
-           str_remove(Geography, "\\[.*\\]")) %>% 
+           str_remove(Geography, " \\[.*\\]")) %>% 
   left_join(geocodes, by = "Geography") %>% 
   relocate(GeoCode, .before = Value)
 
