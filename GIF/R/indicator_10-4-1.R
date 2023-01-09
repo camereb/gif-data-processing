@@ -6,30 +6,26 @@ library(here)
 library(dplyr)
 library(stringr)
 library(readr)
+library(tidyr)
 
-gdp <- get_cansim("36-10-0103-01", factors = FALSE)
+gdp <- get_cansim("36-10-0221-01", factors = FALSE)
 
 geocodes <- read_csv("geocodes.csv")
 
 labour_share <- 
   gdp %>%
-  tidyr::separate(REF_DATE, into = c("Year", "Month")) %>% 
   filter(
-    Year >= 2015,
-    `Seasonal adjustment` == "Seasonally adjusted at annual rates",
-    Estimates %in% c("Compensation of employees", "Gross domestic product at market prices"),
-    !GEO %in% c("Outside Canada", "Northwest Territories including Nunavut")
+    REF_DATE >= 2015,
+    Estimates %in% c("Compensation of employees", "Gross domestic product at market prices")
+    # `Seasonal adjustment` == "Seasonally adjusted at annual rates"
   ) %>% 
   select(
-    Year,
-    Month,
+    Year = REF_DATE,
     Geography = GEO,
     Estimates,
     Value = VALUE
-  ) %>%
-  group_by(Year, Geography, Estimates) %>% 
-  summarise(Value = sum(Value), .groups = "drop") %>% 
-  tidyr::pivot_wider(
+  ) %>% 
+  pivot_wider(
     names_from = Estimates,
     values_from = Value
   ) %>%
@@ -39,7 +35,6 @@ labour_share <-
   ) %>%
   left_join(geocodes) %>%
   relocate(GeoCode, .before = "Value")
-
 
 data_final <- 
   bind_rows(
