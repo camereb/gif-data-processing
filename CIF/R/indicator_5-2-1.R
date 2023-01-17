@@ -1,160 +1,135 @@
-
-
-#10-10-0137-01, 14-10-0335-01, 37-10-0208-01, 41-10-0048-01
-
 # CIF 5.2.1 ---------------------------------------------------------------
 
 # load libraries
 library(dplyr)
-library(tidyr)
 library(cansim)
-library(readr)
 library(stringr)
 
 # load CODR table from stc api
-Raw_data <- get_cansim("10-10-0137-01", factors = FALSE)
-Raw_data2 <- get_cansim("14-10-0335-01", factors = FALSE) 
-Raw_data3 < get_cansim("37-10-0208-01", factors = FALSE)
-Raw_data4 <- get_cansim("41-10-0048-01", factors = FALSE)
+repr_in_gov <- get_cansim("10-10-0137-01", factors = FALSE)
+repr_in_mgmt <- get_cansim("14-10-0335-01", factors = FALSE) 
+repr_in_judges <- get_cansim("37-10-0208-01", factors = FALSE)
+repr_in_chiefs <- get_cansim("41-10-0048-01", factors = FALSE)
 
 
+# Representation in government --------------------------------------------
+
+repr_in_gov <- 
+  repr_in_gov %>%
+  mutate(
+    Year = str_extract(`National elected officials`, "[0-9]{4}"),
+    `Leadership position` = case_when(
+      str_detect(`National elected officials`, "Parliament") ~ "Members of national Parliament",
+      str_detect(`National elected officials`, "Cabinet") ~ "Members of federal Cabinet",
+      TRUE ~ NA_character_
+    )
+  ) %>% 
+  filter(
+    Year >= 2002,
+    GEO == "Canada",
+    Gender == "Women",
+    Statistics == "Proportion"
+  ) %>% 
+  select(
+    Year,
+    `Leadership position`,
+    Value = VALUE
+  )
 
 
-# load geocode
-geocodes <- read_csv("geocodes.csv")
+# Representation in management --------------------------------------------
+
+selected_occupations <- c(
+  "Management occupations [0]",
+  "Senior management occupations [00]",
+  "Specialized middle management occupations [01-05]",
+  "Middle management occupations in retail and wholesale trade and customer services [06]",
+  "Middle management occupations in trades, transportation, production and utilities [07-09]"
+)
+
+repr_in_mgmt <- 
+  repr_in_mgmt %>% 
+  filter(
+    REF_DATE >= 2002,
+    GEO == "Canada",
+    `Labour force characteristics` == "Proportion of employment", 
+    `National Occupational Classification (NOC)` %in% selected_occupations,
+    Sex == "Females"
+  ) %>% 
+  select(
+    Year = REF_DATE,
+    `Leadership position` = `National Occupational Classification (NOC)`,
+    Value = VALUE
+  ) %>% 
+  mutate(
+    `Leadership position` = str_remove_all(`Leadership position`, " \\[.*\\]"),
+    `Leadership position` = ifelse(
+      `Leadership position` == "Management occupations",
+      "All management occupations",
+      `Leadership position`
+    )
+  )
 
 
+# Representation in judges ------------------------------------------------
 
-#load national parliament and federal cabinet
+selected_industries <- c(
+  "Federal government public administration [911]",
+  "Provincial and territorial public administration [912]"
+)
 
-View(Raw_data)
-
-selected_parl <- c( 
-                   "Members of Parliament on July 1, 2002",
-                   "Members of Parliament on July 1, 2003",
-                   "Members of Parliament on July 1, 2004",
-                   "Members of Parliament on July 1, 2005",
-                   "Members of Parliament on July 1, 2006",
-                   "Members of Parliament on July 1, 2007",
-                   "Members of Parliament on July 1, 2008",
-                   "Members of Parliament on July 1, 2009",
-                   "Members of Parliament on July 1, 2010",
-                   "Members of Parliament on July 1, 2011",
-                   "Members of Parliament on July 1, 2012",
-                   "Members of Parliament on July 1, 2013",
-                   "Members of Parliament on July 1, 2014",
-                   "Members of Parliament on July 1, 2015",
-                   "Members of Parliament on July 1, 2016",
-                   "Members of Parliament on July 1, 2017",
-                   "Members of Parliament on July 1, 2018",
-                   "Members of Parliament on July 1, 2019",
-                   "Members of Parliament on July 1, 2020",
-                   "Members of Parliament on July 1, 2021")
-
-
-selected_cab <- c( "Members of Cabinet on July 1, 2002",
-                   "Members of Cabinet on July 1, 2003",
-                   "Members of Cabinet on July 1, 2004",
-                   "Members of Cabinet on July 1, 2005",
-                   "Members of Cabinet on July 1, 2006",
-                   "Members of Cabinet on July 1, 2007",
-                   "Members of Cabinet on July 1, 2008",
-                   "Members of Cabinet on July 1, 2009",
-                   "Members of Cabinet on July 1, 2010",
-                   "Members of Cabinet on July 1, 2011",
-                   "Members of Cabinet on July 1, 2012",
-                   "Members of Cabinet on July 1, 2013",
-                   "Members of Cabinet on July 1, 2014",
-                   "Members of Cabinet on July 1, 2015",
-                   "Members of Cabinet on July 1, 2016",
-                   "Members of Cabinet on July 1, 2017",
-                   "Members of Cabinet on July 1, 2018",
-                   "Members of Cabinet on July 1, 2019",
-                   "Members of Cabinet on July 1, 2020",
-                   "Members of Cabinet on July 1, 2021")
-
-cabinet1 <- 
-  Raw_data %>% 
-  filter(GEO == "Canada",
-         `National elected officials` %in% selected_parl, 
-         Gender == "Female gender", 
-         Statistics == "Proportion") %>% 
-  select(`Leadership position` = `National elected officials`, Value = VALUE) %>% 
-  mutate(Year = rep(c(2002:2021))) %>% 
-  relocate(Year, .before = "Leadership position") %>% 
-  mutate(`Leadership position` = substr(`Leadership position`, 1, 21))
-
-cabinet2 <- 
-  Raw_data %>% 
-  filter(GEO == "Canada",
-         `National elected officials` %in% selected_cab, 
-         Gender == "Female gender", 
-         Statistics == "Proportion") %>% 
-  select(`Leadership position` = `National elected officials`, Value = VALUE) %>% 
-  mutate(Year = rep(c(2002:2021))) %>% 
-  relocate(Year, .before = "Leadership position") %>% 
-  mutate(`Leadership position` = substr(`Leadership position`, 1, 18))
-
-cabinet <- 
-  bind_rows(cabinet1, cabinet2)
+repr_in_judges <- 
+  repr_in_judges %>% 
+  filter(
+    REF_DATE >= 2002,
+    GEO == "Canada",
+    `North American Industry Classification System (NAICS)` %in% selected_industries,
+    Sex == "Females",
+    `Selected demographic characteristics` == "Total, all judges",
+    Statistics == "Percentage of persons"
+  ) %>% 
+  select(
+    Year = REF_DATE,
+    `Leadership position` = `North American Industry Classification System (NAICS)`,
+    Value = VALUE
+  ) %>% 
+  mutate(
+    `Leadership position` = str_remove(`Leadership position`, " \\[.*\\]"),
+    `Leadership position` = paste0("Judges - ", `Leadership position`)
+  )
 
 
+# Representation in chiefs and council ------------------------------------
 
-
-
-
-selected_job <- c("Management occupations [0]",
-                  "Senior management occupations [00]",
-                  "Specialized middle management occupations [01-05]",
-                  "Middle management occupations in retail and wholesale trade and customer services [06]",
-                  "Middle management occupations in trades, transportation, production and utilities [07-09]")
-
-management <- 
-  Raw_data2 %>% 
-  filter(REF_DATE >= 2002,
-         GEO == "Canada", 
-         `Labour force characteristics` == "Proportion of employment",
-         Sex == "Females",
-         `National Occupational Classification (NOC)` %in% selected_job) %>% 
-  select(Year = REF_DATE, 
-         `Leadership position` = `National Occupational Classification (NOC)`,
-         Value = VALUE) %>% 
-  mutate(`Leadership position` = 
-           recode(`Leadership position`,
-                                        "Management occupations [0]" = "All management occupations",
-                                        "Senior management occupations [00]" = "Senior management occupations",
-                  "Specialized middle management occupations [01-05]" = "Specialized middle management occupations",
-                  "Middle management occupations in retail and wholesale trade and customer services [06]" = "Middle management occupations in retail and wholesale trade and customer services",
-                  "Middle management occupations in trades, transportation, production and utilities [07-09]" = "Middle management occupations in trades, transportation, production and utilities"
-                  ))
-
-View(management)
-
-
-
-#Indigenous occupations  
-
-View(Raw_data4)
-
-Indigenous <- 
-  Raw_data4 %>% 
-  filter(REF_DATE >= 2002, 
-         `First Nation Official` %in% 
-           c("Chiefs in First Nation communities", "First Nation council members"),
-         Sex == "Female",
-         Statistics == "Proportion") %>% 
-  select(Year = REF_DATE, 
-         `Leadership position` = `First Nation Official`, 
-         Value = VALUE)
-
-View(Indigenous)
+repr_in_chiefs <-
+  repr_in_chiefs %>%
+  filter(
+    REF_DATE >= 2002,
+    Sex == "Female",
+    Statistics == "Proportion"
+  ) %>% 
+  select(
+    Year = REF_DATE,
+    `Leadership position` = `First Nation Official`,
+    Value = VALUE
+  )
   
   
-  
-  
-  
-  
-  
+
+# Combine data ------------------------------------------------------------
+
+data_final <-
+  bind_rows(repr_in_gov, repr_in_mgmt, repr_in_judges, repr_in_chiefs) %>% 
+  mutate_at(2, ~ paste0("data.", .x)) %>% 
+  rename_at(2, ~ paste0("data.", .x))
+
+
+write.csv(
+  data_final,
+  "data/indicator_5-2-1.csv",
+  na = "",
+  row.names = FALSE
+)  
   
   
   
