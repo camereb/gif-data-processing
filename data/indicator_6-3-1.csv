@@ -1,0 +1,25 @@
+"Year","Units","data.Sector","Value"
+"2013","Cubic metres","",37316714
+"2015","Cubic metres","",36242425
+"2017","Cubic metres","",36645559
+"2019","Cubic metres","",36116379
+"2013","Cubic metres","data.Households",3122721
+"2015","Cubic metres","data.Households",3130300
+"2017","Cubic metres","data.Households",2968455
+"2019","Cubic metres","data.Households",2998282
+"2013","Cubic metres","data.Industries",34193994
+"2015","Cubic metres","data.Industries",33112125
+"2017","Cubic metres","data.Industries",33677103
+"2019","Cubic metres","data.Industries",33118098
+"2013","Growth rate","",4.5
+"2015","Growth rate","",-2.9
+"2017","Growth rate","",1.1
+"2019","Growth rate","",-1.4
+"2013","Growth rate","data.Households",-10.9
+"2015","Growth rate","data.Households",0.2
+"2017","Growth rate","data.Households",-5.2
+"2019","Growth rate","data.Households",1
+"2013","Growth rate","data.Industries",6.2
+"2015","Growth rate","data.Industries",-3.2
+"2017","Growth rate","data.Industries",1.7
+"2019","Growth rate","data.Industries",-1.7
