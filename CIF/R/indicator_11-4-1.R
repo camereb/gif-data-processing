@@ -1,26 +1,14 @@
-
-
-#23-10-0286-01
-
 # CIF 11.4.1 --------------------------------------------------------------------
 
-#load libraries 
+#load libraries
 library(dplyr)
-library(readr)
-library(tidyr)
 library(cansim)
-
-
-
 
 Raw_data <- get_cansim("23-10-0286-01", factors = FALSE)
 
-#load geocode 
+#load geocode
+geocodes <- read.csv("geocodes.csv")
 
-geocodes <- read_csv("geocodes.csv")
-
-
-#Format Table
 
 geographies <- c(
   "Newfoundland and Labrador",
@@ -75,37 +63,23 @@ geographies <- c(
 )
 
 
-
-
-
-public_transit <- 
-  Raw_data %>% 
-  filter(GEO %in% geographies, 
-         `Demographic, geodemographic and commuting` == "Percentage of population near public transit stop"
-         ) %>% 
-  select(Year = REF_DATE, 
+public_transit <-
+  Raw_data %>%
+  filter(
+    GEO %in% geographies,
+    `Demographic, geodemographic and commuting` == "Percentage of population near public transit stop"
+  ) %>%
+  select(Year = REF_DATE,
          Geography = GEO,
-         Value = VALUE) %>% 
-  left_join(geocodes, by = "Geography") %>% 
-  relocate(GeoCode, .before = Value) %>% 
-  mutate(Geography = paste0("data.", Geography)) %>% 
+         Value = VALUE) %>%
+  left_join(geocodes, by = "Geography") %>%
+  relocate(GeoCode, .before = Value) %>%
+  mutate(Geography = paste0("data.", Geography)) %>%
   rename(data.Geography = Geography)
 
 
 
-write_csv(public_transit, "CIF/data/indicator_11-4-1.csv", na = "")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+write.csv(public_transit,
+          "data/indicator_11-4-1.csv",
+          na = "",
+          row.names = FALSE)

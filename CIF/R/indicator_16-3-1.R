@@ -1,25 +1,14 @@
-
-
-#35-10-0177-01 
-
 # CIF 16.3.1 --------------------------------------------------------------------
 
-#load libraries 
+#load libraries
 library(dplyr)
-library(readr)
-library(tidyr)
 library(cansim)
 library(stringr)
 
-
-
-
 Raw_data <- get_cansim("35-10-0177-01", factors = FALSE)
 
-
-#load geocode 
-
-geocodes <- read_csv("geocodes.csv")
+# load geocode
+geocodes <- read.csv("geocodes.csv")
 
 geographies <- c(
   "Canada",
@@ -36,8 +25,6 @@ geographies <- c(
   "Yukon [60]",
   "Northwest Territories [61]",
   "Nunavut [62]"
-  
-  
 )
 
 violations <- c(
@@ -57,81 +44,44 @@ violations <- c(
   "Total other violent violations [180]"
 )
 
-
-
-crime_incidence <- 
-  Raw_data %>% 
-  filter(REF_DATE >= 2015, 
-         GEO %in% geographies,
-         Violations %in% violations,
-         Statistics == "Rate per 100,000 population") %>% 
+crime_incidence <-
+  Raw_data %>%
+  filter(
+    REF_DATE >= 2015,
+    GEO %in% geographies,
+    Violations %in% violations,
+    Statistics == "Rate per 100,000 population"
+  ) %>%
   select(Year = REF_DATE,
          Geography = GEO,
          Violations,
-         Value = VALUE) %>% 
-  mutate(Geography = 
-           str_remove(Geography, " \\[.*\\]")) %>% 
-  left_join(geocodes, by = "Geography") %>% 
+         Value = VALUE) %>%
+  mutate(Geography =
+           str_remove(Geography, " \\[.*\\]")) %>%
+  left_join(geocodes, by = "Geography") %>%
   relocate(GeoCode, .before = Value)
 
-
-#Create the total and non total line 
-
-total <- 
-  crime_incidence %>% 
+# Create the total and non total line
+total <-
+  crime_incidence %>%
   filter(Geography == "Canada",
-         Violations == "Total violent Criminal Code violations [100]") %>% 
-  mutate_at(2:(ncol(.)-2), ~ "")
+         Violations == "Total violent Criminal Code violations [100]") %>%
+  mutate_at(2:(ncol(.) - 2), ~ "")
 
+non_total <-
+  crime_incidence %>%
+  filter(!(
+    Geography == "Canada" &
+      Violations == "Total violent Criminal Code violations [100]"
+  )) %>%
+  mutate_at(2:(ncol(.) - 2), ~ paste0("data.", .x))
 
+# Format the final table and export to csv
+final_data <-
+  bind_rows(total, non_total) %>%
+  rename_at(2:(ncol(.) - 2), ~ paste0("data.", .x))
 
-non_total <- 
-  crime_incidence %>% 
-  filter(!(Geography == "Canada" &
-             Violations == "Total violent Criminal Code violations [100]")) %>% 
-  mutate_at(2:(ncol(.)-2), ~ paste0("data.", .x))
-
-
-#Format the final table and export to csv 
-
-final_data <- 
-  rbind(total, non_total)
-
-
-names(final_data)[2:(ncol(final_data)-2)] <- 
-  paste0("data.", names(final_data)[2:(ncol(final_data)-2)])
-
-
-write_csv(final_data, "CIF/data/indicator_16-3-1.csv", na = "")
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+write.csv(final_data,
+          "data/indicator_16-3-1.csv",
+          na = "",
+          row.names = FALSE)
