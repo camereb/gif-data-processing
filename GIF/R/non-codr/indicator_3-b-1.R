@@ -1,3 +1,5 @@
+NON-CODR CODE IS FIRST, SCROLL FOR R CODE
+
 # load libraries
 library(rvest)
 library(tidyverse)
@@ -53,3 +55,48 @@ distinct(data_final, Antigen) %>%
   transmute(transl = paste0(Antigen, ": ", Antigen_fr)) %>%
   pull(transl) %>%
   write_lines("temp_translation.txt")
+
+-------------------------------------------------------------------------------------------------------------------------------------
+R CODE FOR THIS INDICATOR:
+
+# Indicator 3.b.1 ---------------------------------------------------------
+#  Vaccine coverage estimates for recommended vaccines in children and pregnant women
+
+library(cansim)
+library(dplyr)
+library(here)
+library(readr)
+library(stringr)
+library(tidyr)
+
+vaccine_coverage <- get_cansim("13-10-0870-01", factors = FALSE)
+
+#getwd()
+
+#geocodes <- read.csv("geocodes.csv")
+
+vaccine_estim <- 
+  vaccine_coverage %>%
+  filter(
+    REF_DATE >= 2015,
+    GEO == "Canada",
+    `Target population` == "Recommended vaccines for 2-year-old children",
+    `Sex` == "Total - Gender",
+    `Antigen or vaccine` %in% c("Diphtheria", "Pertussis (whooping cough)", "Tetanus", "Polio", "Haemophilus influenzae type B (Hib)",
+                                 "Measles", "Mumps", "Rubella", "Hepatitis B", "Varicella", "Meningococcal type C", "Pneumococcal", "Rotavirus"),
+    `Characteristics` == "Percentage vaccinated"
+  ) %>% 
+  select(
+    Year = REF_DATE,
+    Geography = GEO,
+    `Antigen or vaccine`, 
+    Value = VALUE
+  ) 
+
+write.csv(
+  vaccine_estim, 
+  "indicator_3-b-1.csv", 
+  na = "", 
+  row.names = FALSE,
+  fileEncoding = "UTF-8"
+)
